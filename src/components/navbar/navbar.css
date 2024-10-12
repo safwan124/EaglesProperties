@@ -1,0 +1,34 @@
+.logo-img {
+  width: 28px;
+  margin-right: 10px;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contact-us-btn {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  display: none; /* Hide icon by default */
+}
+
+@media (max-width: 768px) {
+  /* On small screens, hide the text and show the icon */
+  .contact-text {
+    display: none;
+  }
+
+  .contact-icon {
+    display: inline-block;
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,45 @@
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer ul {
+    padding-left: 0;
+    display: flex;
+    gap: 15px; /* Space between the icons */
+  }
+  
+  .footer ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #ddd;
+  }
+  
+  /* Add responsiveness if needed */
+  @media (max-width: 768px) {
+    .footer ul {
+      flex-direction: column;
+    }
+  }
+  
