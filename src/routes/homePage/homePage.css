@@ -10,16 +10,15 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+  max-height: 90vh; /* Limiting the height to 90% of the viewport height */
 }
 
 .background-video {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   transform: translate(-50%, -50%);
   object-fit: cover; /* Ensures the video covers the entire container */
 }
@@ -66,22 +65,28 @@
   margin: 2px 0;
 }
 
-/* Responsive PiP Adjustments */
-@media (max-width: 576px) {
-  .pip-container {
-    width: 200px;
-    bottom: 15px;
-    right: 15px;
+@media (max-width: 768px) {
+  .video-container {
+    height: 50vh; /* Reduce height for medium screens */
+    max-height: 50vh; /* Ensure max height doesn't go beyond this */
   }
 
-  .featured-property-details h2 {
-    font-size: 16px;
-  }
-
-  .featured-property-details p {
-    font-size: 12px;
-  }
   .background-video {
-  min-width: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 576px) {
+  .video-container {
+    height: 50vh; /* Further reduce height for small screens */
+    max-height: 50vh; /* Ensuring the video isn't too tall */
+  }
+
+  .background-video {
+    width: 100%;
+    height: auto; /* Let the height adjust naturally */
+    object-fit: fill; /* Adjusts the video to fit the width and height of the container */
   }
 }
