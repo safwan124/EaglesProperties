@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom";
-import { mysorePropertiesData } from "../../lib/dummyData";
+import { bangalorePropertiesData } from "../../lib/dummyData";
 import React from 'react';
-import { Container, Row, Col, Card, Carousel } from 'react-bootstrap';
+import { Container, Row, Col, Card, CardImg, CardHeader } from 'react-bootstrap';
 
-function MysorePropertyDetail() {
+function BanglorePropertyDetail() {
     const { id } = useParams();
-    const property = mysorePropertiesData.find((p) => p.id === parseInt(id));
+    const property = bangalorePropertiesData.find((p) => p.id === parseInt(id));
   
     if (!property) {
       return <div>Property not found</div>;
@@ -13,25 +13,17 @@ function MysorePropertyDetail() {
   
     // Ensure property.img is always an array
     const images = Array.isArray(property.img) ? property.img : [property.img];
+    const firstImage = images[1]; // Get the first image
   
     return (
       <Container>
         <Row className="my-5">
           <Col md={12}>
             <Card className="mb-4 shadow-sm">
-              {/* Carousel for multiple images */}
-              <Carousel>
-                {images.map((image, index) => (
-                  <Carousel.Item key={index}>
-                    <img
-                      className="d-block w-100"
-                      src={image}
-                      alt={`Slide ${index + 1}`}
-                    />
-                  </Carousel.Item>
-                ))}
-              </Carousel>
-  
+              {/* Display only the first image */}
+              <CardHeader>
+              <Card.Img variant="top" src={property.img} className="img-fluid" />
+              </CardHeader>
               <Card.Body>
                 <Card.Title>{property.title}</Card.Title>
                 {property.extent && <Card.Text><strong>Extent:</strong> {property.extent}</Card.Text>}
@@ -48,5 +40,4 @@ function MysorePropertyDetail() {
     );
   }
   
-  export default MysorePropertyDetail;
-  
+  export default BanglorePropertyDetail;

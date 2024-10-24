@@ -4,7 +4,7 @@ export const bangalorePropertiesData = [
   {
     id: 1,
     title: "Agricultural Plain Land for Sale",
-    img: "/public/properties/agricultural_land.jpg", // Use the appropriate image path
+    img: "/properties/agricultural_land.jpg", // Use the appropriate image path
     extent: "0.20 gunta",
     location: "Mysore to Devalapura road",
     distance: "20 km from Mysore",

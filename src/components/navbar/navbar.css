@@ -1,6 +1,7 @@
 .logo-img {
-  width: 28px;
+  width: 50px;
   margin-right: 10px;
+  position: relative;
 }
 
 .navbar {
@@ -17,18 +18,59 @@
   align-items: center;
 }
 
-.contact-icon {
-  display: none; /* Hide icon by default */
+.search-form {
+  margin-left: 10px;
 }
 
+/* Fullscreen navbar for mobile */
 @media (max-width: 768px) {
-  /* On small screens, hide the text and show the icon */
-  .contact-text {
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* You can change this to your desired color */
+    z-index: 9999;
     display: none;
+    overflow-y: auto; /* Allows scrolling if the content exceeds screen height */
+    transition: all 0.3s ease-in-out;
   }
 
-  .contact-icon {
-    display: inline-block;
-    margin-left: 10px;
+  .navbar-collapse.show {
+    display: block;
   }
+
+  /* Styling the nav links for full-screen mobile view */
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Centering the links vertically */
+  }
+
+  .nav-item {
+    margin: 1rem 0; /* Add some space between links */
+  }
+
+  .nav-link {
+    font-size: 1.5rem; /* Larger font size for mobile */
+    color: #000;
+    text-align: center;
+  }
+
+  /* Cross button styling */
+  .navbar-toggler {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
+
+/* Optional: style the hamburger icon */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }

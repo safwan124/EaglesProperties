@@ -26,7 +26,6 @@
 
 .search-form {
   display: flex;
-  margin-top: 20px;
 }
 
 .location-select {
@@ -39,7 +38,7 @@
 .search-btn {
   width: 25%;
   padding: 12px;
-  background-color: #fece51;
+  background-color: #ff0000;
   border: none;
   display: flex;
   justify-content: center;

@@ -8,6 +8,9 @@ import MysoreProperties from './routes/mysoreProperties/mysoreProperties';
 import BangaloreProperties from './routes/bangloreProperties/bangloreProperties';
 import BanglorePropertyDetail from './routes/bangloreProperties/banglorePropertyDetails';
 import MysorePropertyDetail from './routes/mysoreProperties/mysorePropertyDetails';
+import About from './components/about/about';
+import Blogs from './components/blogs/blogs';
+import Contact from './components/contact/contact';
 
 function App() {
   const router = createBrowserRouter([
@@ -34,6 +37,18 @@ function App() {
         {
           path: "/bangalore-listings/:id",
           element: <BanglorePropertyDetail />
+        },
+        {
+          path: "/about-us",
+          element: <About />
+        },
+        {
+          path: "/blogs",
+          element: <Blogs />
+        },
+        {
+          path: "/contact",
+          element: <Contact />
         }
       ]
     }

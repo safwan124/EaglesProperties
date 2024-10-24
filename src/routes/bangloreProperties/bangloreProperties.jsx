@@ -3,23 +3,26 @@ import { Container, Row, Col, Card, Button, Modal, Form } from 'react-bootstrap'
 import { bangalorePropertiesData } from '../../lib/dummyData';
 import './bangloreProperties.css';
 import { useNavigate } from 'react-router-dom';
+import Footer from '../../components/footer/footer';
 
 function BangaloreProperties() {
   const [showModal, setShowModal] = useState(false);
-  const [selectedProduct, setSelectedProduct] = useState(null); // To store the selected product for the modal
+  const [selectedProduct, setSelectedProduct] = useState(null); // Store the selected property
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phoneNumber: ''
   });
   const navigate = useNavigate();
+
+  // Handle property search navigation
   const handleSearch = (id) => {
     navigate(`/bangalore-listings/${id}`);
   };
 
-  // Handle modal open for a specific product
-  const handleModalOpen = (product) => {
-    setSelectedProduct(product); // Set the selected product
+  // Handle opening the modal for a specific property
+  const handleModalOpen = (property) => {
+    setSelectedProduct(property); // Set the selected property
     setShowModal(true);
   };
 
@@ -50,39 +53,48 @@ function BangaloreProperties() {
           <p className="text-center">Explore available properties in Bangalore for purchase.</p>
         </Col>
       </Row>
+
       <Row>
         {bangalorePropertiesData.map((property) => (
-          <Col md={12} lg={6} key={property.id}>
+          <Col md={12} key={property.id}>
             <Card className="mb-4 property-card shadow-sm">
               <Row>
+                {/* Property Image */}
                 <Col md={4}>
-                  <Card.Img variant="top" src={property.img} className="img-fluid" />
+                  {/* <Card.Img variant="top" src={property.img} className="img-fluid" /> */}
                 </Col>
-                <Col md={8}>
+
+                {/* Property Details */}
+                <Col md={5}>
                   <Card.Body>
                     <Card.Title className="property-title">{property.title}</Card.Title>
-                    {property.extent && <Card.Text><strong>Extent:</strong> {property.extent}</Card.Text>}
+                    {property.extent && <Card.Text><strong>Carpet Area:</strong> {property.extent}</Card.Text>}
                     {property.location && <Card.Text><strong>Location:</strong> {property.location}</Card.Text>}
-                    {property.distance && <Card.Text><strong>Distance:</strong> {property.distance}</Card.Text>}
-                    {property.siteDimension && <Card.Text><strong>Site Dimension:</strong> {property.siteDimension}</Card.Text>}
-                    {property.totalPrice && <Card.Text><strong>Total Price:</strong> {property.totalPrice}</Card.Text>}
+                    {property.distance && <Card.Text><strong>Status:</strong> {property.distance}</Card.Text>}
+                    {property.siteDimension && <Card.Text><strong>Transaction:</strong> {property.siteDimension}</Card.Text>}
+                    {property.totalPrice && <Card.Text><strong>Price per Sqft:</strong> ₹{property.totalPrice} per sqft</Card.Text>}
+                  </Card.Body>
+                </Col>
+
+                {/* Action Buttons */}
+                <Col md={3} className="text-center d-flex flex-column justify-content-center mt-5">
+                  <Card.Body>
+                    <Card.Text className="fs-4 fw-bold">₹{property.totalPrice}</Card.Text>
+                    <Button variant="danger" className="mb-2 w-100" onClick={() => handleModalOpen(property)}>
+                      Contact Owner
+                    </Button>
+                    <Button variant="secondary" className="w-100" onClick={() => handleSearch(property.id)}>
+                      View Property
+                    </Button>
                   </Card.Body>
                 </Col>
               </Row>
-              <Card.Footer className="text-center">
-                <Button variant="primary" className="w-50" onClick={() => handleModalOpen(property)}>
-                  Get a Quote
-                </Button>
-                <Button variant="secondary" className="w-50" onClick={() => handleSearch(property.id)}>
-                  View Property
-                </Button>
-
-              </Card.Footer>
             </Card>
           </Col>
         ))}
       </Row>
 
+      {/* Modal for Get a Quote */}
       {selectedProduct && (
         <Modal show={showModal} onHide={handleModalClose}>
           <Modal.Header closeButton>
@@ -127,7 +139,7 @@ function BangaloreProperties() {
                   required
                 />
               </Form.Group>
-              <Button className="primary" type="submit">
+              <Button className="danger" type="submit">
                 Submit Quote Request
               </Button>
             </Form>
