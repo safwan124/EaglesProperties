@@ -1,41 +1,50 @@
-import React from 'react'
-import { Card, CardBody, CardHeader } from 'react-bootstrap'
+import React from 'react';
+import { Card, CardBody, CardHeader } from 'react-bootstrap';
 
 const Contact = () => {
   return (
-    <div className='row mx-5'>
-        <div className='col-6 p-5'>
-            <Card>
-                <CardHeader>
-                Mysore Office
-                </CardHeader>
-                <CardBody>
-                # 41/32, Mothikhana Building Old Santhepet, Mysore - 570024 eaglesproperty991@gmail.com 9980557991
-                </CardBody>
-            </Card>
-        </div>
-        <div className='col-6 p-5'>
+    <div className='row mx-0'>
+      {/* Mysore Office Card */}
+      <div className='col-12 col-md-6 p-2'>
         <Card>
-                <CardHeader>
-                Bangalore Office
-                </CardHeader>
-                <CardBody>
-                # 82, 4th Floor, Pipeline, 11th Cross Malleshwaram, Banglore - 560003 eaglesproperty991@gmail.com 9845034692
-                </CardBody>
-            </Card>
-        </div>
+          <CardHeader>
+            Mysore Office
+          </CardHeader>
+          <CardBody>
+            <p>
+              # 41/32, Mothikhana Building Old Santhepet, Mysore - 570024
+            </p>
+            <p>
+              <strong>Email:</strong> eaglesproperty991@gmail.com
+            </p>
+            <p>
+              <strong>Phone:</strong> 9980557991
+            </p>
+          </CardBody>
+        </Card>
+      </div>
+
+      {/* Bangalore Office Card */}
+      <div className='col-12 col-md-6 p-2'>
+        <Card>
+          <CardHeader>
+            Bangalore Office
+          </CardHeader>
+          <CardBody>
+            <p>
+              # 82, 4th Floor, Pipeline, 11th Cross Malleshwaram, Bangalore - 560003
+            </p>
+            <p>
+              <strong>Email:</strong> eaglesproperty991@gmail.com
+            </p>
+            <p>
+              <strong>Phone:</strong> 9845034692
+            </p>
+          </CardBody>
+        </Card>
+      </div>
     </div>
-    
-    
-    // <div className='container'>
-    //     <h1>
-    //         Mysore Office
-    //     </h1>
-    //     <p>
-    //         # 41/32, Mothikhana Building Old Santhepet, Mysore - 570024 eaglesproperty991@gmail.com 9980557991
-    //     </p>
-    // </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

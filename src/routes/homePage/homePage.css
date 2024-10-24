@@ -76,6 +76,14 @@
     min-height: 100%;
     object-fit: cover;
   }
+
+  .pip-container {
+    width: 100px;
+  }
+
+  .homePage {
+    height: auto;
+  }
 }
 
 @media (max-width: 576px) {
@@ -88,5 +96,11 @@
     width: 100%;
     height: auto; /* Let the height adjust naturally */
     object-fit: fill; /* Adjusts the video to fit the width and height of the container */
+  }
+  .pip-container {
+    width: 100px;
+  }
+  .homePage {
+    height: auto;
   }
 }
