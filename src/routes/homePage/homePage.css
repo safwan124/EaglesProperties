@@ -88,10 +88,12 @@
 
 @media (max-width: 576px) {
   .video-container {
-    height: 50vh; /* Further reduce height for small screens */
-    max-height: 50vh; /* Ensuring the video isn't too tall */
+    height: 30vh; /* Further reduce height for small screens */
+    max-height: 30vh; /* Ensuring the video isn't too tall */
   }
-
+  .featured-property {
+    padding: 4px;
+  }
   .background-video {
     width: 100%;
     height: auto; /* Let the height adjust naturally */

@@ -109,7 +109,7 @@ function MyNavbar() {
 
               {/* Contact Us opens modal */}
               <Nav.Item>
-                <Nav.Link style={{ backgroundColor: 'yellow', color: 'black' }} onClick={handleModalOpen}>Book-Now</Nav.Link>
+                <Nav.Link style={{ backgroundColor: 'yellow', color: 'black' }} onClick={handleModalOpen}>Book a Site Visit Now</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link as={Link} to="/contact" onClick={closeNav}>Contact-Us</Nav.Link>
@@ -122,7 +122,7 @@ function MyNavbar() {
       {/* Modal */}
       <Modal show={showModal} onHide={handleModalClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Book Now</Modal.Title>
+          <Modal.Title>Book a Site Visit Now</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form onSubmit={handleFormSubmit}>

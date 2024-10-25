@@ -11,24 +11,18 @@ const About = () => {
   };
 
   return (
-    <Container fluid className="real-estate-stats py-5 px-5">
+    <Container fluid className="real-estate-stats px-5">
       <Row className="align-items-center">
         {/* Stats Content */}
         <Col lg={7} md={12} className="stats-content px-3">
           <h2>
-            With <CountUp start={0} end={20} duration={10} /> years of real
-            estate investment, development, and management experience, The
-            Eagles has an unparalleled scale of delivery and an unmatched track
-            record of customer-centric service excellence in India.
+          The Eagles has been a cornerstone of excellence in real estate for over <strong><CountUp start={0} end={20} duration={10} /></strong> years, known for its unwavering commitment to quality, reliability and best service. Our projects span a wide spectrum, from elegant apartments, residential and commercial plots to industrial spaces, lush agricultural lands, beautiful agricultural plantations, serene lakeside properties, riverside retreats and more.
           </h2>
           <p>
-            At The Eagles, we take pride in our uncompromising integrity in
-            customer engagement and quality assurance, and throughout our...
+          At The Eagles, we pride ourselves on our integrity and dedication to customer satisfaction. Every project...
             {isExpanded && (
               <span className="extra-content">
-                We consistently aim to exceed expectations in every aspect of
-                our business, and we have successfully delivered a wide range of
-                real estate solutions for clients nationwide.
+                 is a reflection of our promise to deliver the highest standards of service, ensuring our clients feel confident and supported throughout their journey. With unmatched expertise and a relentless drive for perfection, we continue to set new benchmarks in the real estate industry. When you choose The Eagles, you're choosing trust, innovation, and excellence.
               </span>
             )}
             <span className="read-more" onClick={toggleReadMore}>

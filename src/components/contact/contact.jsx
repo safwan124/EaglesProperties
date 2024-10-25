@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className='row mx-0'>
       {/* Mysore Office Card */}
-      <div className='col-12 col-md-6 p-2'>
+      <div className='col-12 col-md-6 p-5'>
         <Card>
           <CardHeader>
             Mysore Office
@@ -20,12 +20,15 @@ const Contact = () => {
             <p>
               <strong>Phone:</strong> 9980557991
             </p>
+            <p>
+              <strong>Website:</strong> https://www.theeaglesrealty.com/
+            </p>
           </CardBody>
         </Card>
       </div>
 
       {/* Bangalore Office Card */}
-      <div className='col-12 col-md-6 p-2'>
+      <div className='col-12 col-md-6 p-5'>
         <Card>
           <CardHeader>
             Bangalore Office
@@ -39,6 +42,9 @@ const Contact = () => {
             </p>
             <p>
               <strong>Phone:</strong> 9845034692
+            </p>
+            <p>
+              <strong>Website:</strong> https://www.theeaglesrealty.com/
             </p>
           </CardBody>
         </Card>

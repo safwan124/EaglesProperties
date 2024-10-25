@@ -11,13 +11,20 @@ const Footer = () => {
                 <Row>
                     <Col md={6} xs={12} className="mb-3">
                         <h5>The Eagles</h5>
+                        <p>Mysore Location</p>
                         <p>#41/36, Mothikhana Building Old Santhepet, Mysore - 570024</p>
+                        {/* <p>&copy; {new Date().getFullYear()} Deal IT Solutions. All Rights Reserved.</p> */}
+                        <p>Banglore Location</p>
+                        <p># 82, 4th Floor, Pipeline, 11th Cross Malleshwaram, Bangalore - 560003</p>
                         <p>&copy; {new Date().getFullYear()} Deal IT Solutions. All Rights Reserved.</p>
                     </Col>
                     <Col md={3} xs={12} className="mb-3">
                         <h5>Contact Us</h5>
                         <p>Email: contact@theeaglesrealty.com</p>
+                        <p>Mysore Location</p>
                         <p>Phone: +91 9980557991</p>
+                        <p>Banglore Location</p>
+                        <p>Phone: +91 9845034692</p>
                     </Col>
                     <Col md={3} xs={12}>
                         <h5>Follow Us</h5>

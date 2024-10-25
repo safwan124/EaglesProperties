@@ -14,7 +14,7 @@ function HomePage() {
         <div className="homePage mb-5">
           <div className="video-container">
             <video autoPlay muted loop playsInline className="background-video">
-              <source src="https://www.dlf.in/video/banner-videoss.mp4" type="video/mp4" />
+              <source src="/video.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             {/* PiP container for the featured property */}
