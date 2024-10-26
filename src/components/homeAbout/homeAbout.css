@@ -1,0 +1,57 @@
+/* HomeAbout Component Styles */
+.home-about-container {
+    font-family: "Halant", serif;
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px;
+  }
+  
+  .about-heading {
+    font-family: "Halant", serif;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+  
+  .about-subheading {
+    font-family: "Halant", serif;
+    font-size: 1.25rem;
+    color: #555;
+  }
+  
+  .featured-property {
+    font-family: "Halant", serif;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .featured-property-image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .about-heading {
+      font-size: 2rem;
+    }
+    .about-subheading {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .home-about-container {
+      padding: 1rem;
+    }
+    .about-heading {
+      font-size: 1.75rem;
+    }
+    .about-subheading {
+      font-size: 0.9rem;
+    }
+  }
+  

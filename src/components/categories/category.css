@@ -1,4 +1,5 @@
 .pList {
+    font-family: "Halant", serif;
     width: 100%;
     max-width: 1024px;
     display: flex;
@@ -29,12 +30,14 @@
 }
   
   .pListTitles > h1 {
+    font-family: "Halant", serif;
     font-size: 18px;
     color: #444;
     margin: 10px 0 5px; /* Add margin for better spacing */
   }
   
   .pListTitles > h2 {
+    font-family: "Halant", serif;
     font-size: 14px;
     font-weight: 300;
   }

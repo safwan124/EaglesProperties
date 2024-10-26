@@ -68,7 +68,7 @@ function MyNavbar() {
         <Container>
           <Link to="/" className="navbar-brand d-flex align-items-center" onClick={closeNav}>
             <img src="/logo.png" alt="logo" className="logo-img" />
-            <span>The Eagles</span>
+            <span className="logo-text">The Eagles</span>
           </Link>
 
           {/* Toggle for hamburger */}

@@ -1,11 +1,15 @@
 .logo-img {
-  width: 50px;
-  margin-right: 10px;
+  width: 120px;
+  margin-right: 5px;
   position: relative;
 }
 
 .navbar {
-  height: 100px;
+  font-family: "Halant", serif;
+  height: 120px;
+}
+.logo-text{
+  font-size: x-large;
 }
 
 .navbar-brand {
