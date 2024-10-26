@@ -62,6 +62,11 @@ function MyNavbar() {
     closeNav();
   }, [location]); // Runs every time the location changes (i.e., after a route change)
 
+  const handleModalAndCloseNav = () => {
+    handleModalOpen();
+    closeNav();
+  };
+
   return (
     <>
       <Navbar expanded={!isNavCollapsed} expand="lg" className="navbar navbar-expand-lg">
@@ -109,7 +114,7 @@ function MyNavbar() {
 
               {/* Contact Us opens modal */}
               <Nav.Item>
-                <Nav.Link style={{ backgroundColor: 'yellow', color: 'black' }} onClick={handleModalOpen}>Book a Site Visit Now</Nav.Link>
+                <Nav.Link style={{ backgroundColor: 'yellow', color: 'black' }} onClick={handleModalAndCloseNav}>Book a Site Visit Now</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link as={Link} to="/contact" onClick={closeNav}>Contact-Us</Nav.Link>
