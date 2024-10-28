@@ -51,15 +51,17 @@ function BangalorePropertyDetail() {
             </Carousel>
             <Card.Body>
               <Card.Title>{property.title}</Card.Title>
-              <Card.Text><strong>Location:</strong> {property.location}</Card.Text>
-              <Card.Text><strong>Price Per Gunta:</strong> {property.pricePerGunta}</Card.Text>
-              <Card.Text><strong>Total Price:</strong> {property.totalPrice}</Card.Text>
+              {property.location && <Card.Text><strong>Location:</strong> {property.location}</Card.Text>}
+              {property.pricePerGunta && <Card.Text><strong>Price Per Gunta:</strong> {property.pricePerGunta}</Card.Text>}
+              {property.extent && <Card.Text><strong>Extent:</strong> {property.extent}</Card.Text>}
+              {property.layoutName && <Card.Text><strong>Layout Name:</strong> {property.layoutName}</Card.Text>}
+              {property.siteDimension && <Card.Text><strong>Site Dimension:</strong> {property.siteDimension}</Card.Text>}
+              {property.area && <Card.Text><strong>Area:</strong> {property.area}</Card.Text>}
               <Card.Text>{property.description}</Card.Text>
 
               {/* Conditionally show the rest of the details */}
               {showFullDetails && (
                 <>
-                  {property.extent && <Card.Text><strong>Extent:</strong> {property.extent}</Card.Text>}
                   {property.distance && <Card.Text><strong>Distance:</strong> {property.distance}</Card.Text>}
                   {property.village && <Card.Text><strong>Village:</strong> {property.village}</Card.Text>}
                   {property.road && <Card.Text><strong>Road:</strong> {property.road}</Card.Text>}
@@ -76,7 +78,7 @@ function BangalorePropertyDetail() {
                       </ul>
                     </Card.Text>
                   )}
-                  {property.fencing && <Card.Text><strong>Fencing:</strong> {property.fencing}</Card.Text>}
+              {property.fencing && <Card.Text><strong>Fencing:</strong> {property.fencing}</Card.Text>}
               {property.borewell && <Card.Text><strong>Borewell:</strong> {property.borewell ? 'Yes' : 'No'}</Card.Text>}
               {property.openWell && <Card.Text><strong>Open Well:</strong> {property.openWell ? 'Yes' : 'No'}</Card.Text>}
               {property.farmhouse && <Card.Text><strong>Farmhouse:</strong> {property.farmhouse ? 'Yes' : 'No'}</Card.Text>}
@@ -84,8 +86,6 @@ function BangalorePropertyDetail() {
               {property.cowShed && <Card.Text><strong>Cow Shed:</strong> {property.cowShed ? 'Yes' : 'No'}</Card.Text>}
               {property.pricePerGunta && <Card.Text><strong>Price Per Gunta:</strong> {property.pricePerGunta}</Card.Text>}
               {property.totalPrice && <Card.Text><strong>Total Price:</strong> {property.totalPrice}</Card.Text>}
-              {property.layoutName && <Card.Text><strong>Layout Name:</strong> {property.layoutName}</Card.Text>}
-              {property.siteDimension && <Card.Text><strong>Site Dimension:</strong> {property.siteDimension}</Card.Text>}
               {property.siteFacing && <Card.Text><strong>Site Facing:</strong> {property.siteFacing}</Card.Text>}
               {property.siteNumber && <Card.Text><strong>Site Number:</strong> {property.siteNumber}</Card.Text>}
               {property.roadWidth && <Card.Text><strong>Road Width:</strong> {property.roadWidth}</Card.Text>}
@@ -96,7 +96,6 @@ function BangalorePropertyDetail() {
               {property.groundFloor && <Card.Text><strong>Ground Floor:</strong> {property.groundFloor ? 'Yes' : 'No'}</Card.Text>}
               {property.duplex && <Card.Text><strong>Duplex:</strong> {property.duplex ? 'Yes' : 'No'}</Card.Text>}
               {property.buildersFloor && <Card.Text><strong>Builder's Floor:</strong> {property.buildersFloor ? 'Yes' : 'No'}</Card.Text>}
-              {property.area && <Card.Text><strong>Area:</strong> {property.area}</Card.Text>}
               {property.mainDoorFacing && <Card.Text><strong>Main Door Facing:</strong> {property.mainDoorFacing}</Card.Text>}
               {property.bedrooms && <Card.Text><strong>Bedrooms:</strong> {property.bedrooms}</Card.Text>}
               {property.attachBathrooms && <Card.Text><strong>Attached Bathrooms:</strong> {property.attachBathrooms}</Card.Text>}

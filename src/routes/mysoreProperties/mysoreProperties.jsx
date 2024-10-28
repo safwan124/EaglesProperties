@@ -53,13 +53,13 @@ function MysoreProperties() {
   // Category options
   const categories = [
     'All',
+    'Apartments',
     'Residential Plot',
     'Commercial Plot',
     'Agricultural Land',
     'Industrial Land',
     'River Side Property',
-    'Residential House/Villa',
-    'Apartments'
+    'Residential House/Villa'
   ];  
 
   return (

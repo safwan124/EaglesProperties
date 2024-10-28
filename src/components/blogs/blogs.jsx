@@ -9,7 +9,7 @@ export default function Blogs() {
   return (
     <div>
       {/* Hero section */}
-      <section className="bg-light py-5">
+      <section className="heading bg-light py-5">
         <Container>
           <h1 className="display-4 text-center">Latest Real-Estate News</h1>
           <p className="lead text-center text-muted">
