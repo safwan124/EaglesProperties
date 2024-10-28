@@ -1,13 +1,13 @@
 /* HomeAbout Component Styles */
 .home-about-container {
-    font-family: "Halant", serif;
+    font-family: "Libre Baskerville", serif;
     padding: 2rem;
     background-color: #f9f9f9; /* Light background for contrast */
     border-radius: 8px;
   }
   
   .about-heading {
-    font-family: "Halant", serif;
+    font-family: "Libre Baskerville", serif;
     font-size: 2.5rem;
     color: #2c3e50;
     font-weight: bold;
@@ -15,13 +15,13 @@
 }
   
   .about-subheading {
-    font-family: "Halant", serif;
+    font-family: "Libre Baskerville", serif;
     font-size: 1.25rem;
     color: #555;
   }
   
   .featured-property {
-    font-family: "Halant", serif;
+    font-family: "Libre Baskerville", serif;
     display: flex;
     justify-content: center;
     cursor: pointer;

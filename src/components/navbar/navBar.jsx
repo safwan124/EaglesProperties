@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Container, Modal, Button, Form, Navbar, Nav } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import "./navbar.css";
 
 const locations = ["Mysore", "Bangalore"];
@@ -16,9 +14,9 @@ function MyNavbar() {
     category: '',
   });
   const [selectedLocation, setSelectedLocation] = useState("");
-  const [isNavCollapsed, setIsNavCollapsed] = useState(true); // Track navbar collapse state
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
   const navigate = useNavigate();
-  const location = useLocation(); // This helps detect route changes
+  const location = useLocation();
 
   const handleModalClose = () => setShowModal(false);
   const handleModalOpen = () => setShowModal(true);
@@ -28,14 +26,11 @@ function MyNavbar() {
   };
 
   const handleLocationChange = (e) => {
-    setSelectedLocation(e.target.value);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (selectedLocation === "Mysore") {
+    const locationValue = e.target.value;
+    setSelectedLocation(locationValue);
+    if (locationValue === "Mysore") {
       navigate("/mysore-listings");
-    } else if (selectedLocation === "Bangalore") {
+    } else if (locationValue === "Bangalore") {
       navigate("/bangalore-listings");
     }
   };
@@ -46,21 +41,17 @@ function MyNavbar() {
     handleModalClose();
   };
 
-  // Function to handle navbar toggle state
   const handleNavToggle = () => {
     setIsNavCollapsed(!isNavCollapsed);
   };
 
-  // Function to close navbar when a link is clicked
   const closeNav = () => {
     setIsNavCollapsed(true);
   };
 
-  // Use `useEffect` to listen to route changes
   useEffect(() => {
-    // Close the navbar menu when URL changes
     closeNav();
-  }, [location]); // Runs every time the location changes (i.e., after a route change)
+  }, [location]);
 
   const handleModalAndCloseNav = () => {
     handleModalOpen();
@@ -76,23 +67,22 @@ function MyNavbar() {
             <span className="logo-text">The Eagles</span>
           </Link>
 
-          {/* Toggle for hamburger */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleNavToggle} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Item>
-                <Nav.Link as={Link} to="/" onClick={closeNav}>Home</Nav.Link>
+                <Nav.Link as={Link} to="/" className={location.pathname === "/" ? "active" : ""} onClick={closeNav}>Home</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to="/about-us" onClick={closeNav}>About Us</Nav.Link>
+                <Nav.Link as={Link} to="/about-us" className={location.pathname === "/about-us" ? "active" : ""} onClick={closeNav}>About Us</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to="/blogs" onClick={closeNav}>Blogs</Nav.Link>
+                <Nav.Link as={Link} to="/blogs" className={location.pathname === "/blogs" ? "active" : ""} onClick={closeNav}>Blogs</Nav.Link>
               </Nav.Item>
 
               {/* Location Selector */}
               <Nav.Item>
-                <Form onSubmit={handleSubmit} className="search-form d-flex">
+                <Form className="location-select-form">
                   <Form.Select
                     value={selectedLocation}
                     onChange={handleLocationChange}
@@ -106,18 +96,15 @@ function MyNavbar() {
                       </option>
                     ))}
                   </Form.Select>
-                  <Button variant="danger" type="submit" className="search-btn">
-                    <FontAwesomeIcon icon={faSearch} color="white" />
-                  </Button>
                 </Form>
               </Nav.Item>
 
               {/* Contact Us opens modal */}
               <Nav.Item>
-                <Nav.Link style={{ backgroundColor: 'yellow', color: 'black' }} onClick={handleModalAndCloseNav}>Book a Site Visit Now</Nav.Link>
+                <Nav.Link onClick={handleModalAndCloseNav}>Book a Site Visit Now</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to="/contact" onClick={closeNav}>Contact-Us</Nav.Link>
+                <Nav.Link as={Link} to="/contact" className={location.pathname === "/contact" ? "active" : ""} onClick={closeNav}>Contact Us</Nav.Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>
@@ -170,7 +157,6 @@ function MyNavbar() {
                 name="category"
                 value={formData.category}
                 onChange={handleInputChange}
-                placeholder="Select the Category"
                 required
               >
                 <option value="">Select the Category</option>

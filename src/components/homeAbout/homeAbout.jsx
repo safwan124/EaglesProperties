@@ -4,7 +4,7 @@ import './homeAbout.css';
 
 const HomeAbout = ({ handleClick }) => {
   return (
-    <Container className="home-about-container my-5">
+    <Container className="home-about-container my-5 p-5">
       <Row className="align-items-center">
         <Col md={6} className="text-col">
           <h1 className="about-heading">Where Dreams Take Flight</h1>

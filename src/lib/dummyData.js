@@ -3,8 +3,13 @@
 export const bangalorePropertiesData = [
   {
     id: 1,
+    category: "Agricultural Land",
     title: "Agricultural Plain Land for Sale",
-    img: "/properties/agricultural_land.jpg", // Use the appropriate image path
+    images: [
+      "/properties/agricultural_land.jpg",
+      "/properties/agricultural_land.jpg",
+      // "/video.mp4",
+    ],
     extent: "0.20 gunta",
     location: "Mysore to Devalapura road",
     distance: "20 km from Mysore",
@@ -32,8 +37,12 @@ export const bangalorePropertiesData = [
   },
   {
     id: 2,
+    category: "Commercial Plot",
     title: "Commercial Site for Sale",
-    img: "/public/properties/commercial_site.jpg", // Use the appropriate image path
+    images: [
+      "/properties/commercial_site.jpg", // First image
+      "/properties/commercial_site.jpg", // Second image
+    ],
     location: "Vijaya Nagara 1st stage",
     layoutName: "Vijaya Nagara 1st stage",
     siteDimension: "50x80",
@@ -48,8 +57,12 @@ export const bangalorePropertiesData = [
   },
   {
     id: 3,
+    category: "Residential Plot",
     title: "Residential Site for Sale",
-    img: "/public/properties/residential_site.jpg", // Use the appropriate image path
+    images: [
+      "/properties/residential_site.jpg", // First image
+      "/properties/residential_site.jpg", // Second image
+    ],
     location: "Vijaya Nagara 4th stage",
     layoutName: "Vijaya Nagara 4th stage",
     siteDimension: "40x60",
@@ -64,8 +77,12 @@ export const bangalorePropertiesData = [
   },
   {
     id: 4,
+    category: "Residential House/Villa",
     title: "Residential House for Sale",
-    img: "/public/properties/residential_house.jpg", // Use the appropriate image path
+    images: [
+      "/properties/residential_house.jpg", // First image
+      "/properties/residential_house.jpg", // Second image
+    ],
     bhk: "3BHK",
     groundFloor: false,
     duplex: true,
@@ -90,14 +107,18 @@ export const bangalorePropertiesData = [
     carParking: "Portico",
     totalPrice: "Rs. 2.10 crores",
   },
-  // Add Bangalore location data similarly...
 ];
 
 export const mysorePropertiesData = [
   {
     id: 1,
+    category: "Agricultural Land",
     title: "Agricultural Plain Land for Sale",
-    img: "/public/properties/agricultural_land.jpg", // Use the appropriate image path
+    images: [
+      "/properties/agricultural_land.jpg",
+      "/properties/agricultural_land.jpg",
+      // "/video.mp4",
+    ],
     extent: "0.20 gunta",
     location: "Mysore to Devalapura road",
     distance: "20 km from Mysore",
@@ -125,8 +146,12 @@ export const mysorePropertiesData = [
   },
   {
     id: 2,
+    category: "Commercial Plot",
     title: "Commercial Site for Sale",
-    img: "/public/properties/commercial_site.jpg", // Use the appropriate image path
+    images: [
+      "/properties/commercial_site.jpg", // First image
+      "/properties/commercial_site.jpg", // Second image
+    ],
     location: "Vijaya Nagara 1st stage",
     layoutName: "Vijaya Nagara 1st stage",
     siteDimension: "50x80",
@@ -141,8 +166,12 @@ export const mysorePropertiesData = [
   },
   {
     id: 3,
+    category: "Residential Plot",
     title: "Residential Site for Sale",
-    img: "/public/properties/residential_site.jpg", // Use the appropriate image path
+    images: [
+      "/properties/residential_site.jpg", // First image
+      "/properties/residential_site.jpg", // Second image
+    ],
     location: "Vijaya Nagara 4th stage",
     layoutName: "Vijaya Nagara 4th stage",
     siteDimension: "40x60",
@@ -157,8 +186,12 @@ export const mysorePropertiesData = [
   },
   {
     id: 4,
+    category: "Residential House/Villa",
     title: "Residential House for Sale",
-    img: "/public/properties/residential_house.jpg", // Use the appropriate image path
+    images: [
+      "/properties/residential_house.jpg", // First image
+      "/properties/residential_house.jpg", // Second image
+    ],
     bhk: "3BHK",
     groundFloor: false,
     duplex: true,
@@ -183,31 +216,4 @@ export const mysorePropertiesData = [
     carParking: "Portico",
     totalPrice: "Rs. 2.10 crores",
   },
-  // Add Bangalore location data similarly...
 ];
-
-  
-  export const singlePostData = {
-    id: 1,
-    title: "Beautiful Apartment",
-    price: 1200,
-    images: [
-      "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    ],
-    bedRooms: 2,
-    bathroom: 1,
-    size: 861,
-    latitude: 51.5074,
-    longitude: -0.1278,
-    city: "London",
-    address: "1234 Broadway St",
-    school: "250m away",
-    bus: "100m away",
-    restaurant: "50m away",
-    description:
-      "Future alike hill pull picture swim magic chain seed engineer nest outer raise bound easy poetry gain loud weigh me recognize farmer bare danger. actually put square leg vessels earth engine matter key cup indeed body film century shut place environment were stage vertical roof bottom lady function breeze darkness beside tin view local breathe carbon swam declared magnet escape has from pile apart route coffee storm someone hold space use ahead sheep jungle closely natural attached part top grain your grade trade corn salmon trouble new bend most teacher range anybody every seat fifteen eventually",
-  };
-  

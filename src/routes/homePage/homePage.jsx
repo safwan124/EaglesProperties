@@ -23,8 +23,8 @@ function HomePage() {
       </div>
       {/* Use HomeAbout with handleClick as a prop */}
       <HomeAbout handleClick={handleClick} />
-      <h3 className="subhead text-center mb-5 mt-5">Categories</h3>
-      <Category />
+      {/* <h3 className="subhead text-center mb-5 mt-5">Categories</h3>
+      <Category /> */}
     </>
   );
 }

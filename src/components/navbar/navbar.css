@@ -5,11 +5,12 @@
 }
 
 .navbar {
-  font-family: "Halant", serif;
+  font-family: "Libre Baskerville", serif;
   height: 120px;
 }
-.logo-text{
-  font-size: x-large;
+
+.logo-text {
+  font-size: xx-large;
 }
 
 .navbar-brand {
@@ -17,16 +18,40 @@
   font-size: 20px;
 }
 
-.contact-us-btn {
-  display: flex;
-  align-items: center;
+.nav-link {
+  color: rgb(145, 144, 144);
+  font-weight: 500;
 }
 
-.search-form {
+.nav-link:hover,
+.nav-link.active {
+  color: rgb(117, 117, 117);
+  text-decoration: underline;
+}
+
+.location-select-form {
   margin-left: 10px;
 }
 
-/* Fullscreen navbar for mobile */
+.location-select {
+  border: none;
+  /* border-bottom: 2px solid #ccc; */
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.location-select:focus {
+  box-shadow: none;
+  border-color: #999;
+}
+
+.modal-header{
+  padding: 2rem;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px;
+}
+
+/* Mobile fullscreen navbar styling */
 @media (max-width: 768px) {
   .navbar-collapse {
     position: fixed;
@@ -34,10 +59,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff; /* You can change this to your desired color */
+    background-color: #fff;
     z-index: 9999;
     display: none;
-    overflow-y: auto; /* Allows scrolling if the content exceeds screen height */
+    overflow-y: auto;
     transition: all 0.3s ease-in-out;
   }
 
@@ -45,26 +70,23 @@
     display: block;
   }
 
-  /* Styling the nav links for full-screen mobile view */
   .navbar-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%; /* Centering the links vertically */
+    height: 100%;
   }
 
   .nav-item {
-    margin: 1rem 0; /* Add some space between links */
+    margin: 1rem 0;
   }
 
   .nav-link {
-    font-size: 1.5rem; /* Larger font size for mobile */
-    color: #000;
+    font-size: 1.5rem;
     text-align: center;
   }
 
-  /* Cross button styling */
   .navbar-toggler {
     position: absolute;
     top: 10px;
@@ -74,7 +96,6 @@
   }
 }
 
-/* Optional: style the hamburger icon */
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }

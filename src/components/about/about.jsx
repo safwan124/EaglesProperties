@@ -12,28 +12,28 @@ const About = () => {
   };
 
   const teamMembers = [
-    { img: '/profile.png', name: "Name", designation: "Co-Founder" },
-    { img: '/profile.png', name: "Name", designation: "Founder and CEO" },
-    { img: '/profile.png', name: "Name", designation: "Co-Founder" }
+    { img: '/profile.png', name: "A. Prabhu Prasad", designation: "Founder" },
+    { img: '/profile.png', name: "Tanisha P.Prasad", designation: "Marketing Head" },
+    { img: '/profile.png', name: "Umesh B.S", designation: "Bangalore operation Head" }
   ];
 
   return (
     <Container fluid className="real-estate-stats px-5">
       {/* About Section */}
-      <div>
+      <div className="about-container">
         <h1 className="text-center my-5">About Us</h1>
         <h4>
           The Eagles has been a cornerstone of excellence in real estate for
           over 20 years,
           known for its unwavering commitment to quality, reliability, and best
-          service. Our projects span a wide spectrum, from elegant apartments,
+          service. Our projects span a wide spectrum from elegant apartments,
           residential and commercial plots to industrial spaces, lush agricultural
           lands, beautiful agricultural plantations, serene lakeside properties,
-          riverside retreats, and more.
+          riverside retreats and more.
         </h4>
-        <p>
+        <h6>
           At The Eagles, we pride ourselves on our integrity and dedication to
-          customer satisfaction. Every project
+          customer satisfaction. Every project&nbsp;
           {isExpanded && (
             <span className="extra-content">
               is a reflection of our promise to deliver the highest standards of
@@ -41,13 +41,13 @@ const About = () => {
               their journey. With unmatched expertise and a relentless drive for
               perfection, we continue to set new benchmarks in the real estate
               industry. When you choose The Eagles, you're choosing trust,
-              innovation, and excellence.
+              innovation and excellence.
             </span>
           )}
           <span className="read-more" onClick={toggleReadMore}>
             {isExpanded ? " Show Less" : " Read More"}
           </span>
-        </p>
+        </h6>
       </div>
 
       {/* Our Team Section */}

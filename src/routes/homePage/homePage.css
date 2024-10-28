@@ -1,6 +1,6 @@
 /* HomePage Styles */
 .homePage {
-  font-family: "Halant", serif;
+  font-family: "Libre Baskerville", serif;
   display: flex;
   height: 100vh; /* Full viewport height */
   margin-bottom: 5rem; /* Margin-bottom for space after the section */

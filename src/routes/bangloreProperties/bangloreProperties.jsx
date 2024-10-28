@@ -3,7 +3,6 @@ import { Container, Row, Col, Card, Button, Modal, Form } from 'react-bootstrap'
 import { bangalorePropertiesData } from '../../lib/dummyData';
 import './bangloreProperties.css';
 import { useNavigate } from 'react-router-dom';
-import Footer from '../../components/footer/footer';
 
 function BangaloreProperties() {
   const [showModal, setShowModal] = useState(false);
@@ -13,6 +12,7 @@ function BangaloreProperties() {
     email: '',
     phoneNumber: ''
   });
+  const [selectedCategory, setSelectedCategory] = useState('All'); // Track selected category
   const navigate = useNavigate();
 
   // Handle property search navigation
@@ -45,6 +45,23 @@ function BangaloreProperties() {
     handleModalClose(); // Close modal after form submit
   };
 
+  // Filter properties based on the selected category
+  const filteredProperties = bangalorePropertiesData.filter((property) => 
+    selectedCategory === 'All' || property.category === selectedCategory
+  );
+
+  // Category options
+  const categories = [
+    'All',
+    'Residential Plot',
+    'Commercial Plot',
+    'Agricultural Land',
+    'Industrial Land',
+    'River Side Property',
+    'Residential House/Villa',
+    'Apartments'
+  ];  
+
   return (
     <Container className="bangaloreProperties">
       <Row className="my-5">
@@ -54,14 +71,32 @@ function BangaloreProperties() {
         </Col>
       </Row>
 
+      {/* Category Navigation */}
+      <Row className="mb-4">
+        <Col className="text-center">
+          <div className="category-nav">
+            {categories.map((category) => (
+              <Button
+                key={category}
+                variant={category === selectedCategory ? 'secondary' : 'outline-secondary'}
+                className="m-1"
+                onClick={() => setSelectedCategory(category)}
+              >
+                {category}
+              </Button>
+            ))}
+          </div>
+        </Col>
+      </Row>
+
       <Row>
-        {bangalorePropertiesData.map((property) => (
+        {filteredProperties.map((property) => (
           <Col md={12} key={property.id}>
             <Card className="mb-4 property-card shadow-sm">
               <Row>
                 {/* Property Image */}
                 <Col md={4}>
-                  {/* <Card.Img variant="top" src={property.img} className="img-fluid" /> */}
+                  <Card.Img variant="top" src={property.images[0]} className="img-fluid" />
                 </Col>
 
                 {/* Property Details */}
@@ -80,8 +115,8 @@ function BangaloreProperties() {
                 <Col md={3} className="text-center d-flex flex-column justify-content-center mt-5">
                   <Card.Body>
                     <Card.Text className="fs-4 fw-bold">₹{property.totalPrice}</Card.Text>
-                    <Button variant="danger" className="mb-2 w-100" onClick={() => handleModalOpen(property)}>
-                      Contact Owner
+                    <Button variant="primary" className="mb-2 w-100" onClick={() => handleModalOpen(property)}>
+                      Contact
                     </Button>
                     <Button variant="secondary" className="w-100" onClick={() => handleSearch(property.id)}>
                       View Property
