@@ -55,12 +55,12 @@ const About = () => {
         <h2 className="text-center mb-5">Our Team</h2>
         <Row>
           {teamMembers.map((member, index) => (
-            <Col md={4} xs={12} className="text-center mb-4 px-5" key={index}>
-              <div className="card team-card p-5">
+            <Col md={4} xs={12} className="text-center mb-4" key={index}>
+              <div className="card team-card">
                 <img
                   src={member.img}
                   alt={member.name}
-                  className="card-img-top p-3 img-fluid"
+                  className="card-img-top p-5 img-fluid"
                 />
                 <div className="card-body">
                   <h5 className="card-title">{member.name}</h5>

@@ -6,6 +6,7 @@
 .about-container{
   padding: 2rem;
   background-color: #f9f9f9; /* Light background for contrast */
+  color: black;
   border-radius: 8px;
 }
 .team-section {
@@ -19,6 +20,8 @@
 }
 
 .team-card {  
+  padding: 20px 50px;
+  margin: 0 50px;
   border: none;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
@@ -43,12 +46,17 @@
 @media (max-width: 768px) {
   .team-card {
     margin-bottom: 1rem;
+    padding: 1px;
+    margin: 1px;
   }
 }
 
 @media (max-width: 576px) {
+  .about-container {
+    font-size: 12px;
+  }
   .card-title {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
   .card-text {
     font-size: 0.9rem;

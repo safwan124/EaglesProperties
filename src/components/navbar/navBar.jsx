@@ -113,7 +113,7 @@ function MyNavbar() {
 
       {/* Modal */}
       <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header closeButton>
+        <Modal.Header className="modal-header" closeButton>
           <Modal.Title>Book a Site Visit Now</Modal.Title>
         </Modal.Header>
         <Modal.Body>

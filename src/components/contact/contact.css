@@ -1,18 +1,48 @@
-.contact-container {
-    background-color: #f2f2f2; /* Faint grey background */
-    padding: 20px;
-  }
-  
-  .footer-section {
-    margin-top: 20px;
-  }
+.contact-section {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
 
-  .footer-section img {
-    width: 100%;
-    height: 400px;
-  }
-  
-  .footer-logo {
-    max-width: 100px;
-  }
-  
+.background-image {
+  background-image: url('/c-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(3px); /* Apply blur to only the background */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Place background below the content */
+}
+
+.contact-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+  z-index: 2; /* Overlay above background but below text */
+}
+
+.content {
+  position: relative;
+  z-index: 3; /* Ensure text stays above both the background and overlay */
+  color: #ffffff;
+  margin-left: 2px;
+}
+
+.contact-section h5 {
+  font-weight: bold;
+  color: #FFD700;
+}
+
+.contact-section p, 
+.contact-section a {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
