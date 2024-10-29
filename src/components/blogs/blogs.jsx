@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import Footer from '../footer/footer';
 import "./blogs.css";
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const cards = [1];
 
 export default function Blogs() {
   return (
@@ -13,9 +13,10 @@ export default function Blogs() {
         <Container>
           <h1 className="display-4 text-center">Latest Real-Estate News</h1>
           <p className="lead text-center text-muted">
-            Something short and leading about the collection below—its contents,
+            Stay updated with the latest trends and developments in real estate! From rising property values and innovative housing solutions to regulatory changes, today's market is more dynamic than ever. Dive into the current state of the market and prepare for what's next in the world of <br />real estate!
+            {/* Something short and leading about the collection below—its contents,
             the creator, etc. Make it short and sweet, but not too short so folks
-            don&apos;t simply skip over it entirely.
+            don&apos;t simply skip over it entirely. */}
           </p>
         </Container>
       </section>
@@ -28,13 +29,13 @@ export default function Blogs() {
               <Card className="h-100 card-img">
                 <Card.Img
                   variant="top"
-                  src="https://etimg.etb2bimg.com/thumb/114309870.cms?width=400&height=300"
+                  src="/foo2.jpg"
                   alt={`Card image ${card}`}
                 />
                 <Card.Body>
-                  <Card.Title>Heading</Card.Title>
+                  <Card.Title>Real Estate IPOs</Card.Title>
                   <Card.Text>
-                    This is a media card. You can use this section to describe the content.
+                  India's real estate IPOs hit new records in 2024, raising Rs 13,500 crore.
                   </Card.Text>
                 </Card.Body>
               </Card>

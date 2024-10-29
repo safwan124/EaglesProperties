@@ -4,6 +4,10 @@
   color: black;
 }
 
+.h5 {
+  font-size: 2rem!important;
+}
+
 .property-card {
   border-radius: 10px;
   border: 1px solid #ccc;
@@ -11,12 +15,12 @@
 }
 
 .property-title {
-  font-weight: bold;
-  font-size: 1.25rem;
+  font-weight: 900;
+  font-size: 2rem;
 }
 
 .property-card .btn {
-  margin: 5px 0;
+  margin: 0px 0;
 }
 
 .property-card .card-footer {
@@ -29,3 +33,11 @@
   object-fit: cover; /* Crop image to fill the dimensions */
 }
   
+.contact-btn {
+  background-color: rgb(141, 141, 141) !important;
+  font-weight: bold !important;
+}
+
+.plantation {
+  font-size: 20px !important;
+}

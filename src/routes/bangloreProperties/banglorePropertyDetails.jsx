@@ -50,74 +50,91 @@ function BangalorePropertyDetail() {
               ))}
             </Carousel>
             <Card.Body>
-              <Card.Title>{property.title}</Card.Title>
-              {property.location && <Card.Text><strong>Location:</strong> {property.location}</Card.Text>}
-              {property.pricePerGunta && <Card.Text><strong>Price Per Gunta:</strong> {property.pricePerGunta}</Card.Text>}
-              {property.extent && <Card.Text><strong>Extent:</strong> {property.extent}</Card.Text>}
-              {property.layoutName && <Card.Text><strong>Layout Name:</strong> {property.layoutName}</Card.Text>}
-              {property.siteDimension && <Card.Text><strong>Site Dimension:</strong> {property.siteDimension}</Card.Text>}
-              {property.area && <Card.Text><strong>Area:</strong> {property.area}</Card.Text>}
-              <Card.Text>{property.description}</Card.Text>
+              <Card.Title className="mb-5">{property.title}</Card.Title>
+              <Row>
+  <Col xs={12} md={4}>
+    <ul>
+      {property.extent && <li><strong>Extent -</strong> {property.extent}</li>}
+      {property.planlandplantation && <li><strong>Plain land/Plantation -</strong> {property.planlandplantation}</li>}
+      {property.riversidebackwater && <li><strong>River Side/Back Water -</strong> {property.riversidebackwater}</li>}
+      {property.location && <li><strong>Location -</strong> {property.location}</li>}
+      {property.distance && <li><strong>Distance -</strong> {property.distance}</li>}
+      {property.village && <li><strong>Village -</strong> {property.village}</li>}
+      {property.road && <li><strong>Road -</strong> {property.road}</li>}
+      {property.soil && <li><strong>Soil -</strong> {property.soil}</li>}
+      {property.facing && <li><strong>Facing -</strong> {property.facing}</li>}
+    </ul>
+  </Col>
+
+  <Col xs={12} md={4}>
+    <ul>
+      {property.plantation && (
+        <li><strong className="plantation">Plantation -</strong>
+          <ul>
+            {Object.entries(property.plantation).map(([plant, available]) => (
+              <li key={plant}>
+                {plant} - {available ? "Yes" : "No"}
+              </li>
+            ))}
+          </ul>
+        </li>
+      )}
+    </ul>
+  </Col>
+
+  <Col xs={12} md={4}>
+    <ul>
+      {property.fencing && <li><strong>Fencing -</strong> {property.fencing}</li>}
+      <li><strong>Borewell - </strong> {property.borewell ? 'Yes' : 'No'}</li>
+      <li><strong>Open Well - </strong> {property.openWell ? 'Yes' : 'No'}</li>
+      <li><strong>Farmhouse - </strong> {property.farmhouse ? 'Yes' : 'No'}</li>
+      <li><strong>Pump House - </strong> {property.pumpHouse ? 'Yes' : 'No'}</li>
+      <li><strong>Cow Shed - </strong> {property.cowShed ? 'Yes' : 'No'}</li>
+      {property.pricePerGunta && <li><strong>Price Per Gunta - </strong> {property.pricePerGunta}</li>}
+      {property.layoutName && <li><strong>Layout Name -</strong> {property.layoutName}</li>}
+      {property.siteDimension && <li><strong>Site Dimension -</strong> {property.siteDimension}</li>}
+      {property.area && <li><strong>Area -</strong> {property.area}</li>}
+      {property.totalPrice && <li><strong>Total Price - </strong> {property.totalPrice}</li>}
+      {property.siteFacing && <li><strong>Site Facing - </strong> {property.siteFacing}</li>}
+      {property.siteNumber && <li><strong>Site Number - </strong> {property.siteNumber}</li>}
+      {property.roadWidth && <li><strong>Road Width - </strong> {property.roadWidth}</li>}
+      {property.mudaAllotted && <li><strong>Muda Allotted - </strong> {property.mudaAllotted ? 'Yes' : 'No'}</li>}
+      {property.mudaApproved && <li><strong>Muda Approved - </strong> {property.mudaApproved ? 'Yes' : 'No'}</li>}
+      {property.dtcpApproved && <li><strong>DTCP Approved - </strong> {property.dtcpApproved ? 'Yes' : 'No'}</li>}
+      {property.bhk && <li><strong>BHK - </strong> {property.bhk}</li>}
+      {property.groundFloor && <li><strong>Ground Floor - </strong> {property.groundFloor ? 'Yes' : 'No'}</li>}
+      {property.duplex && <li><strong>Duplex - </strong> {property.duplex ? 'Yes' : 'No'}</li>}
+      {property.buildersFloor && <li><strong>Builder's Floor - </strong> {property.buildersFloor ? 'Yes' : 'No'}</li>}
+      {property.mainDoorFacing && <li><strong>Main Door Facing - </strong> {property.mainDoorFacing}</li>}
+      {property.bedrooms && <li><strong>Bedrooms - </strong> {property.bedrooms}</li>}
+      {property.attachBathrooms && <li><strong>Attached Bathrooms - </strong> {property.attachBathrooms}</li>}
+      {property.commonBathroom && <li><strong>Common Bathroom - </strong> {property.commonBathroom}</li>}
+      {property.poojaRoom && <li><strong>Pooja Room - </strong> {property.poojaRoom}</li>}
+      {property.totalBuiltUpArea && <li><strong>Total Built-Up Area - </strong> {property.totalBuiltUpArea}</li>}
+      {property.balconies && <li><strong>Balconies - </strong> {property.balconies}</li>}
+      {property.totalFloors && <li><strong>Total Floors - </strong> {property.totalFloors}</li>}
+      {property.semiFurnished && <li><strong>Semi-Furnished - </strong> {property.semiFurnished ? 'Yes' : 'No'}</li>}
+      {property.fullyFurnished && <li><strong>Fully Furnished - </strong> {property.fullyFurnished ? 'Yes' : 'No'}</li>}
+      {property.carParking && <li><strong>Car Parking - </strong> {property.carParking}</li>}
+      {property.flooring && <li><strong>Flooring - </strong> {property.flooring}</li>}
+      {property.garden && <li><strong>Garden - </strong> {property.garden ? 'Yes' : 'No'}</li>}
+      {property.patios && <li><strong>Patios - </strong> {property.patios}</li>}
+    </ul>
+  </Col>
+</Row>
+
 
               {/* Conditionally show the rest of the details */}
-              {showFullDetails && (
-                <>
-                  {property.distance && <Card.Text><strong>Distance:</strong> {property.distance}</Card.Text>}
-                  {property.village && <Card.Text><strong>Village:</strong> {property.village}</Card.Text>}
-                  {property.road && <Card.Text><strong>Road:</strong> {property.road}</Card.Text>}
-                  {property.soil && <Card.Text><strong>Soil:</strong> {property.soil}</Card.Text>}
-                  {property.facing && <Card.Text><strong>Facing:</strong> {property.facing}</Card.Text>}
-                  {property.plantation && (
-                    <Card.Text><strong>Plantation:</strong>
-                      <ul>
-                        {Object.entries(property.plantation).map(([plant, available]) => (
-                          <li key={plant}>
-                            {plant}: {available ? "Yes" : "No"}
-                          </li>
-                        ))}
-                      </ul>
-                    </Card.Text>
-                  )}
-              {property.fencing && <Card.Text><strong>Fencing:</strong> {property.fencing}</Card.Text>}
-              {property.borewell && <Card.Text><strong>Borewell:</strong> {property.borewell ? 'Yes' : 'No'}</Card.Text>}
-              {property.openWell && <Card.Text><strong>Open Well:</strong> {property.openWell ? 'Yes' : 'No'}</Card.Text>}
-              {property.farmhouse && <Card.Text><strong>Farmhouse:</strong> {property.farmhouse ? 'Yes' : 'No'}</Card.Text>}
-              {property.pumpHouse && <Card.Text><strong>Pump House:</strong> {property.pumpHouse ? 'Yes' : 'No'}</Card.Text>}
-              {property.cowShed && <Card.Text><strong>Cow Shed:</strong> {property.cowShed ? 'Yes' : 'No'}</Card.Text>}
-              {property.pricePerGunta && <Card.Text><strong>Price Per Gunta:</strong> {property.pricePerGunta}</Card.Text>}
-              {property.totalPrice && <Card.Text><strong>Total Price:</strong> {property.totalPrice}</Card.Text>}
-              {property.siteFacing && <Card.Text><strong>Site Facing:</strong> {property.siteFacing}</Card.Text>}
-              {property.siteNumber && <Card.Text><strong>Site Number:</strong> {property.siteNumber}</Card.Text>}
-              {property.roadWidth && <Card.Text><strong>Road Width:</strong> {property.roadWidth}</Card.Text>}
-              {property.mudaAllotted && <Card.Text><strong>Muda Allotted:</strong> {property.mudaAllotted ? 'Yes' : 'No'}</Card.Text>}
-              {property.mudaApproved && <Card.Text><strong>Muda Approved:</strong> {property.mudaApproved ? 'Yes' : 'No'}</Card.Text>}
-              {property.dtcpApproved && <Card.Text><strong>DTCP Approved:</strong> {property.dtcpApproved ? 'Yes' : 'No'}</Card.Text>}
-              {property.bhk && <Card.Text><strong>BHK:</strong> {property.bhk}</Card.Text>}
-              {property.groundFloor && <Card.Text><strong>Ground Floor:</strong> {property.groundFloor ? 'Yes' : 'No'}</Card.Text>}
-              {property.duplex && <Card.Text><strong>Duplex:</strong> {property.duplex ? 'Yes' : 'No'}</Card.Text>}
-              {property.buildersFloor && <Card.Text><strong>Builder's Floor:</strong> {property.buildersFloor ? 'Yes' : 'No'}</Card.Text>}
-              {property.mainDoorFacing && <Card.Text><strong>Main Door Facing:</strong> {property.mainDoorFacing}</Card.Text>}
-              {property.bedrooms && <Card.Text><strong>Bedrooms:</strong> {property.bedrooms}</Card.Text>}
-              {property.attachBathrooms && <Card.Text><strong>Attached Bathrooms:</strong> {property.attachBathrooms}</Card.Text>}
-              {property.commonBathroom && <Card.Text><strong>Common Bathroom:</strong> {property.commonBathroom}</Card.Text>}
-              {property.poojaRoom && <Card.Text><strong>Pooja Room:</strong> {property.poojaRoom}</Card.Text>}
-              {property.totalBuiltUpArea && <Card.Text><strong>Total Built-Up Area:</strong> {property.totalBuiltUpArea}</Card.Text>}
-              {property.balconies && <Card.Text><strong>Balconies:</strong> {property.balconies}</Card.Text>}
-              {property.totalFloors && <Card.Text><strong>Total Floors:</strong> {property.totalFloors}</Card.Text>}
-              {property.semiFurnished && <Card.Text><strong>Semi-Furnished:</strong> {property.semiFurnished ? 'Yes' : 'No'}</Card.Text>}
-              {property.fullyFurnished && <Card.Text><strong>Fully Furnished:</strong> {property.fullyFurnished ? 'Yes' : 'No'}</Card.Text>}
-              {property.carParking && <Card.Text><strong>Car Parking:</strong> {property.carParking}</Card.Text>}
-              <Card.Text>{property.description}</Card.Text>
-                </>
-              )}
+              {/* {showFullDetails && ( */}
+              {/* )} */}
 
               {/* Button to toggle more details */}
-              <Button variant="secondary" onClick={() => setShowFullDetails(!showFullDetails)}>
+              {/* <Button variant="secondary" onClick={() => setShowFullDetails(!showFullDetails)}>
                 {showFullDetails ? "Hide Details" : "View Property Details"}
-              </Button>
+              </Button> */}
 
               {/* Contact Button */}
-              <Button className="ms-3" onClick={handleContactModalOpen}>Contact</Button>
+              <Button className="ms-3 contact-btn" onClick={handleContactModalOpen}>Contact</Button>
             </Card.Body>
           </Card>
         </Col>
