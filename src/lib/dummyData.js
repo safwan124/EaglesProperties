@@ -20,18 +20,18 @@ export const bangalorePropertiesData = [
     plantation: {
       coconut: false,
       arecanut: false,
-      mango: true,
-      sapota: true,
-      pomegranate: true,
+      mango: false,
+      sapota: false,
+      pomegranate: false,
       teak: false,
-      banana: true,
+      "Silver Oak": false,
     },
     fencing: "Fully fenced",
     borewell: false,
-    openWell: true,
-    farmhouse: true,
-    pumpHouse: true,
-    cowShed: true,
+    openWell: false,
+    farmhouse: false,
+    pumpHouse: false,
+    cowShed: false,
     pricePerGunta: "5 lakhs per gunta",
     totalPrice: "1 crore for 20 guntas",
   },
@@ -40,8 +40,8 @@ export const bangalorePropertiesData = [
     category: "Commercial Plot",
     title: "Commercial Site for Sale",
     images: [
-      "/properties/commercial_site.jpg", // First image
-      "/properties/commercial_site.jpg", // Second image
+      "/properties/comPic.jpeg", //image
+      "/properties/comPic2.jpeg", // Second image
     ],
     location: "Vijaya Nagara 1st stage",
     layoutName: "Vijaya Nagara 1st stage",
@@ -60,8 +60,8 @@ export const bangalorePropertiesData = [
     category: "Residential Plot",
     title: "Residential Site for Sale",
     images: [
-      "/properties/residential_site.jpg", // First image
-      "/properties/residential_site.jpg", // Second image
+      "/properties/rec1.jpeg", // Second image
+      "/properties/rec2.jpeg", // Second image
     ],
     location: "Vijaya Nagara 4th stage",
     layoutName: "Vijaya Nagara 4th stage",
@@ -81,7 +81,34 @@ export const bangalorePropertiesData = [
     title: "Residential House for Sale",
     images: [
       "/properties/residential_house.jpg", // First image
-      "/properties/residential_house.jpg", // Second image
+       "/properties/res1.jpeg",
+      "/properties/res2.jpeg",
+      "/properties/res3.jpeg",
+      "/properties/res4.jpeg",
+      "/properties/res5.jpeg",
+      "/properties/res6.jpeg",
+      "/properties/res7.jpeg",
+      "/properties/res8.jpeg",
+      "/properties/res9.jpeg",
+      "/properties/res10.jpeg",
+      "/properties/res11.jpeg",
+      "/properties/res12.jpeg",
+      "/properties/res13.jpeg",
+      "/properties/res14.jpeg",
+      "/properties/res15.jpeg",
+      "/properties/res16.jpeg",
+      "/properties/res17.jpeg",
+      "/properties/res18.jpeg",
+      "/properties/res19.jpeg",
+      "/properties/res20.jpeg",
+      "/properties/res21.jpeg",
+      "/properties/res22.jpeg",
+      "/properties/res23.jpeg",
+      "/properties/res24.jpeg",
+      "/properties/res25.jpeg",
+      "/properties/res26.jpeg",
+      "/properties/res27.jpeg",
+      "/properties/res28.jpeg",
     ],
     bhk: "3BHK",
     groundFloor: false,

@@ -11,12 +11,12 @@
 }
 
 .property-title {
-  font-weight: bold;
-  font-size: 1.25rem;
+  font-weight: 900;
+  font-size: 2rem;
 }
 
 .property-card .btn {
-  margin: 5px 0;
+  margin: 0px 0;
 }
 
 .property-card .card-footer {
@@ -28,4 +28,14 @@
   height: auto; /* Set height to auto to maintain aspect ratio */
   object-fit: cover; /* Crop image to fill the dimensions */
 }
-  
+
+.h5 {
+  font-size: 2rem!important;
+}
+.plantation {
+  font-size: 20px !important;
+}
+.contact-btn {
+  background-color: rgb(141, 141, 141) !important;
+  font-weight: bold !important;
+}
