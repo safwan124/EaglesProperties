@@ -12,9 +12,9 @@ const About = () => {
   };
 
   const teamMembers = [
-    { img: '/Eprofile1.jpg', name: "A. Prabhu Prasad", designation: "Founder" },
-    { img: '/Eprofile.jpg', name: "Tanisha P Prasad", designation: "Marketing Head" },
-    { img: '/Eprofile2.jpg', name: "Umesh B.S", designation: "Bangalore Operations Head" }
+    { img: '/profile.png', name: "A. Prabhu Prasad", designation: "Founder" },
+    { img: '/profile.png', name: "Tanisha P.Prasad", designation: "Marketing Head" },
+    { img: '/profile.png', name: "Umesh B.S", designation: "Bangalore operation Head" }
   ];
 
   return (
@@ -25,7 +25,7 @@ const About = () => {
         <h4>
           The Eagles has been a cornerstone of excellence in real estate for
           over 20 years,
-          known for its unwavering commitment to quality, reliability and best
+          known for its unwavering commitment to quality, reliability, and best
           service. Our projects span a wide spectrum from elegant apartments,
           residential and commercial plots to industrial spaces, lush agricultural
           lands, beautiful agricultural plantations, serene lakeside properties,
@@ -60,7 +60,7 @@ const About = () => {
                 <img
                   src={member.img}
                   alt={member.name}
-                  className={`card-img-top p-5 img-fluid ${member.name === "A. Prabhu Prasad" ? "tall-image" : ""}`}
+                  className="card-img-top p-5 img-fluid"
                 />
                 <div className="card-body">
                   <h5 className="card-title">{member.name}</h5>

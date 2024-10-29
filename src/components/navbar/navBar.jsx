@@ -169,7 +169,7 @@ function MyNavbar() {
                 <option value="Apartments">Apartments</option>
               </Form.Select>
             </Form.Group>
-            <Button variant="secondary" type="submit">
+            <Button variant="danger" type="submit">
               Submit
             </Button>
           </Form>

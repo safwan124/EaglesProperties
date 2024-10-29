@@ -10,8 +10,7 @@
   border-radius: 8px;
 }
 .team-section {
-  background-color: #f4f4f4;
-  color: black;
+  background-color: #f9f9f9;
   padding: 2rem 0;
   border-radius: 8px;
 }
@@ -42,12 +41,6 @@
   font-size: 1rem;
   color: #555;
 }
-
-.tall-image {
-  height: 400px!important; /* Adjust the height as needed */
-  object-fit: cover; /* Ensures the image scales properly within the specified height */
-}
-
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
