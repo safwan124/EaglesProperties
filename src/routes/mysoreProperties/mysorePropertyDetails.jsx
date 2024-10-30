@@ -36,19 +36,33 @@ function MysorePropertyDetail() {
   const handleContactModalOpen = () => setShowContactModal(true);
   const handleContactModalClose = () => setShowContactModal(false);
 
+  // Setting up media array with both images and video
+  property.media = [
+    ...property.images.map((image) => ({ type: "image", src: image })), // Add images from property data
+    { type: "video", src: '/video.mp4' } // Add a video
+  ];
+  
+
   return (
     <Container>
       <Row className="my-5">
         <Col md={12}>
           <Button variant="secondary" onClick={() => navigate(-1)} className="mb-4">Back</Button>
           <Card className="mb-4 shadow-sm">
-            <Carousel>
-              {property.images.map((image, index) => (
-                <Carousel.Item key={index}>
-                  <img className="d-block w-100" src={image} alt={property.title} />
-                </Carousel.Item>
-              ))}
-            </Carousel>
+          <Carousel>
+            {property.media.map((media, index) => (
+              <Carousel.Item key={index}>
+                {media.type === "video" ? (
+                  <video className="d-block w-100" controls autoPlay muted>
+                    <source src={media.src} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                ) : (
+                  <img className="d-block w-100" src={media.src} alt={property.title} />
+                )}
+              </Carousel.Item>
+            ))}
+          </Carousel>
             <Card.Body>
             <Card.Title className="mb-5">{property.title}</Card.Title>
               <Row>
@@ -56,21 +70,28 @@ function MysorePropertyDetail() {
                   <ul>
                     {property.extent && <li><strong>Extent -</strong> {property.extent}</li>}
                     {property.planlandplantation && <li><strong>Plain land/Plantation -</strong> {property.planlandplantation}</li>}
-                    {property.riversidebackwater && <li><strong>River Side/Back Water -</strong> {property.riversidebackwater}</li>}
+                    {property.riversidebackwater && <li><strong>River Side Land/Back Water Land-</strong> {property.riversidebackwater}</li>}
+                    {property.bhks && <li><strong>BHK - </strong> {property.bhks}</li>}
+                    {property.bhk && <li><strong>BHK - </strong> {property.bhk}</li>}
                     {property.location && <li><strong>Location -</strong> {property.location}</li>}
                     {property.distance && <li><strong>Distance -</strong> {property.distance}</li>}
                     {property.village && <li><strong>Village -</strong> {property.village}</li>}
                     {property.road && <li><strong>Road -</strong> {property.road}</li>}
                     {property.soil && <li><strong>Soil -</strong> {property.soil}</li>}
                     {property.facing && <li><strong>Facing -</strong> {property.facing}</li>}
+                    {property.Balconies && <li><strong>Balconies -</strong> {property.Balconies}</li>}
+                    {property.Totalnumberofflats && <li><strong>Total Number of Flats -</strong> {property.Totalnumberofflats}</li>}
+                    {property.ageoftheapartment && <li><strong>Age of the Apartment -</strong> {property.ageoftheapartment}</li>}
+                    {property.Flatonfloornumber && <li><strong>Flat on floor number -</strong> {property.Flatonfloornumber}</li>}
+                    {property.Flatsonthatfloor && <li><strong>Flats on that floor -</strong> {property.Flatsonthatfloor}</li>}
                     {property.layoutName && <li><strong>Layout Name -</strong> {property.layoutName}</li>}
-                    {property.siteNumber && <li><strong>Site Number - </strong> {property.siteNumber}</li>}
-                    {property.bhk && <li><strong>BHK - </strong> {property.bhk}</li>}
-                  {property.groundduplex && <li><strong>Ground/Duplex - </strong> {property.groundduplex}</li>}
-                  {property.buildersFloor && <li><strong>Builder's Floor - </strong> {property.buildersFloor}</li>}
+                  {property.groundduplex && <li><strong>Duplex House- </strong> {property.groundduplex}</li>}
+                  {/* {property.buildersFloor && <li><strong>Builder's Floor - </strong> {property.buildersFloor}</li>} */}
                   {property.area && <li><strong>Area -</strong> {property.area}</li>}
                   {property.siteDimension && <li><strong>Site Dimension -</strong> {property.siteDimension}</li>}
+                  {property.totalArea && <li><strong>Total Area - </strong> {property.totalArea}</li>}
                   {property.siteFacing && <li><strong>Site Facing - </strong> {property.siteFacing}</li>}
+                  {property.mainDoorFacing && <li><strong>Main Door Facing - </strong> {property.mainDoorFacing}</li>}
                   </ul>
                 </Col>
 
@@ -98,6 +119,11 @@ function MysorePropertyDetail() {
                   {property.fullyFurnished && <li><strong>Fully Furnished - </strong> {property.fullyFurnished ? 'Yes' : 'No'}</li>}
                   {property.carParking && <li><strong>Car Parking - </strong> {property.carParking}</li>}
                   {property.flooring && <li><strong>Flooring - </strong> {property.flooring}</li>}
+                  {property.SemiFurnished && <li><strong>SemiFurnished - </strong> {property.SemiFurnished}</li>}
+                  {property.Builtuparea && <li><strong>Built up area - </strong> {property.Builtuparea}</li>}
+                  {property.Carpetarea && <li><strong>Carpet area - </strong> {property.Carpetarea}</li>}
+                  {property.Superarea && <li><strong>Super area - </strong> {property.Superarea}</li>}
+                  {property.Lift && <li><strong>Lift - </strong> {property.Lift}</li>}
                   </ul>
                 </Col>
 
@@ -130,11 +156,14 @@ function MysorePropertyDetail() {
                       <li><strong>Price / sqft - </strong> {property.pricePerSqft}</li>
                     </>
                   )}
-                  {property.mainDoorFacing && <li><strong>Main Door Facing - </strong> {property.mainDoorFacing}</li>}
                   {property.pricePerGunta && <li><strong>Price Per Gunta - </strong> {property.pricePerGunta}</li>}
                   {property.totalPrice && <li><strong>Total Price - </strong> {property.totalPrice}</li>}
                   {property.garden && <li><strong>Garden - </strong> {property.garden ? 'Yes' : 'No'}</li>}
                   {property.patios && <li><strong>Patios - </strong> {property.patios}</li>}
+                  {property.carparkingopenorcovered && <li><strong>Car Parking Open or Covered - </strong> {property.carparkingopenorcovered}</li>}
+                  {property.Monthlymaintainacecharges && <li><strong>Monthly Maintainace Charges - </strong> {property.Monthlymaintainacecharges}</li>}
+                  {property.Ageofthebuilding && <li><strong>Age of the Building - </strong> {property.ageofthebuilding}</li>}
+                  {property.Price && <li><strong>Price - </strong> {property.Price}</li>}
                 </ul>
               </Col>
             </Row>
@@ -194,7 +223,7 @@ function MysorePropertyDetail() {
                 required
               />
             </Form.Group>
-            <Button className="danger" type="submit">
+            <Button className="submit" type="submit">
               Submit Quote Request
             </Button>
           </Form>

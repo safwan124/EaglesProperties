@@ -28,4 +28,20 @@
   height: auto; /* Set height to auto to maintain aspect ratio */
   object-fit: cover; /* Crop image to fill the dimensions */
 }
+
+.submit{
+  background-color: grey!important;
+  border-color: #ccc!important;
+}
+
+.contact-btn {
+  background-color: grey !important; /* Ensure the Contact button has the same styling */
+  border-color: #ccc!important;
+  border: none; /* Remove the border */
+  color: white; /* Set text color to white */
+}
+
+.myshead {
+  background-color: #f4f4f4;
+}
   

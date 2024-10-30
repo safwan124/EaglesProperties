@@ -178,7 +178,7 @@ function BangalorePropertyDetail() {
                 required
               />
             </Form.Group>
-            <Button className="danger" type="submit">
+            <Button className="secondary" type="submit">
               Submit Quote Request
             </Button>
           </Form>

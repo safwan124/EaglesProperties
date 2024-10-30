@@ -8,7 +8,7 @@ function HomePage() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/bangalore-listings/1'); // Navigates to the property detail page with id 1
+    navigate('/mysore-listings/1'); // Navigates to the property detail page with id 1
   };
 
   return (

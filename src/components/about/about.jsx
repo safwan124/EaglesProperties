@@ -60,7 +60,7 @@ const About = () => {
                 <img
                   src={member.img}
                   alt={member.name}
-                  className={`card-img-top p-5 img-fluid ${member.name === "A. Prabhu Prasad" ? "tall-image" : ""}`}
+                  className={`card-img-top p-5 img-fluid ${member.name === "A. Prabhu Prasad" ? "tall-image" : ""} ${["Tanisha P Prasad", "Umesh B.S"].includes(member.name) ? "short-image" : ""}`}
                 />
                 <div className="card-body">
                   <h5 className="card-title">{member.name}</h5>

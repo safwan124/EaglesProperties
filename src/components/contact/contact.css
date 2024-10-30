@@ -5,11 +5,11 @@
 }
 
 .background-image {
-  background-image: url('/c-bg2.jpg');
-  background-size: contain;
+  background-image: url('/pencil.jpg');
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: blur(3px); /* Apply blur to only the background */
+  /* filter: blur(3px); */
   position: absolute;
   top: 0;
   left: 0;
@@ -47,4 +47,8 @@
 .contact-section a {
   color: #626262;
   font-size: 20px;
+}
+
+.no-underline {
+  text-decoration: none;
 }

@@ -21,7 +21,7 @@
 }
 
 .team-card {  
-  padding: 20px 50px;
+  padding: 10px 10px;
   margin: 0 50px;
   border: none;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -45,7 +45,12 @@
 
 .tall-image {
   height: 400px!important; /* Adjust the height as needed */
-  object-fit: cover; /* Ensures the image scales properly within the specified height */
+  object-fit: contain; /* Ensures the image scales properly within the specified height */
+}
+
+.short-image {
+  height: 400px!important; /* Set a lower height for specific images */
+  object-fit: contain; /* Maintains aspect ratio and prevents distortion */
 }
 
 /* Responsive adjustments */

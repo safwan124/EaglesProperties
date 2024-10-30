@@ -1,65 +1,83 @@
 .footer {
-    font-family: "Libre Baskerville", serif;
-    background-color: #6d6d6d;
-    color: #fff;
-    padding: 20px 0;
+  font-family: "Libre Baskerville", serif;
+  background-color: #6d6d6d;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-weight: bold;
+}
+
+.footer h5 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.25rem; /* Default size for larger screens */
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.footer ul {
+  padding-left: 0;
+  display: flex;
+  gap: 15px; /* Space between the icons */
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ddd;
+}
+
+.foologo {
+  width: 50px;
+  height: auto;
+}
+
+.foorights {
+  font-size: 12px;
+}
+
+.list-unstyled {
+  font-size: 10px;
+}
+
+/* Add responsiveness if needed */
+@media (max-width: 768px) {
+  .footer ul {
+      flex-direction: column; /* Stack items vertically */
   }
 
   .footer h3 {
-    font-weight: bold;
+      font-size: 1rem; /* Smaller font size for h3 */
   }
-  
+
   .footer h5 {
-    font-family: "Libre Baskerville", serif;
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    font-weight: 400;
+      font-size: 0.9rem; /* Smaller font size for h5 */
   }
 
-  .footer ul {
-    padding-left: 0;
-    display: flex;
-    gap: 15px; /* Space between the icons */
-  }
-  
-  .footer ul li {
-    list-style: none;
-    display: inline-block;
-  }
-  
-  .footer a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .footer a:hover {
-    color: #ddd;
+  .footer p {
+      font-size: 0.8rem; /* Smaller font size for paragraph text */
   }
 
-  .foologo {
-    width: 50px;
-    height: auto;
+  .list-unstyled {
+      font-size: 8px; /* Smaller font size for the list */
   }
 
   .foorights {
-    font-size: 12px;
+      font-size: 8px; /* Adjust footer rights font size */
   }
-  
-  /* Add responsiveness if needed */
-  @media (max-width: 768px) {
-    .footer ul {
-      flex-direction: column;
-    }
-    .list-unstyled {
-      font-size: small;
-    }
-    .foorights {
-      font-size: 8px;
-    }
-    .foologo {
-      width: 30px;
+
+  .foologo {
+      width: 30px; /* Adjust logo size */
       height: auto;
-    }
   }
-  
+}
