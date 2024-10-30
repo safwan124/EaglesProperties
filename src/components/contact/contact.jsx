@@ -26,17 +26,17 @@ const Contact = () => {
           <Col md={4} xs={12}>
             <ul className="list-unstyled d-flex flex-row mt-5 p-5">
               <li className="ms-3">
-                <a href="https://www.instagram.com/eagle_properties?igsh=bnd5c2NsNHV2dXpk" className="text-light" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/eagle_properties?igsh=bnd5c2NsNHV2dXpk" className="" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faInstagram} size="2x" /><br/>Instagram
                 </a>
               </li>
               <li className="ms-3">
-                <a href="https://www.linkedin.com" className="text-light" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com" className="" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faLinkedinIn} size="2x" /> <br/>LinkedIn
                 </a>
               </li>
               <li className="ms-3">
-                <a href="https://www.facebook.com/profile.php?id=61567251331546&mibextid=ZbWKwL" className="text-light" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/profile.php?id=61567251331546&mibextid=ZbWKwL" className="" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faFacebook} size="2x" /> <br/>Facebook
                 </a>
               </li>
