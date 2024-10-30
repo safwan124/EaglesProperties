@@ -51,6 +51,8 @@ function MyNavbar() {
 
   useEffect(() => {
     closeNav();
+    // Reset selected location when the route changes
+    setSelectedLocation("");
   }, [location]);
 
   const handleModalAndCloseNav = () => {

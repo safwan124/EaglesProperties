@@ -30,7 +30,7 @@ export default function Blogs() {
                   alt={`Card image ${card}`}
                 />
                 <Card.Body>
-                  <Card.Title>Real Estate IPOs</Card.Title>
+                  <Card.Title className='head'>Real Estate IPOs</Card.Title>
                   <Card.Text>
                   India's real estate IPOs hit new records in 2024, raising Rs 13,500 crore.
                   </Card.Text>

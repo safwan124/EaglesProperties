@@ -1,7 +1,7 @@
 .mysoreProperties {
   font-family: "Libre Baskerville", serif;
   padding: 20px;
-  color: black;
+  color: rgb(76, 76, 76)!important;
 }
 
 .property-card {
@@ -13,6 +13,7 @@
 .property-title {
   font-weight: bold;
   font-size: 1.25rem;
+  color: #717171!important;
 }
 
 .property-card .btn {

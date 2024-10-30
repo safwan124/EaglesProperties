@@ -3,6 +3,15 @@
   font-family: "Libre Baskerville", serif;
 }
 
+.real-estate-stats h1,
+.real-estate-stats h2,
+.real-estate-stats h4,
+.real-estate-stats h5,
+.real-estate-stats h6 {
+  color: rgb(84, 84, 84);
+}
+
+
 .about-container{
   padding: 2rem;
   background-color: #f9f9f9; /* Light background for contrast */

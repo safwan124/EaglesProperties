@@ -2,6 +2,7 @@
     position: relative !important
 }
 
-.heading {
-    color: black;
+.heading, 
+.head {
+    color: rgb(97, 97, 97);
 }

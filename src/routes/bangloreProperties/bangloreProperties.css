@@ -1,7 +1,7 @@
 .bangaloreProperties {
   font-family: "Libre Baskerville", serif;
   padding: 20px;
-  color: black;
+  color: rgb(76, 76, 76)!important;
 }
 
 .property-card {
