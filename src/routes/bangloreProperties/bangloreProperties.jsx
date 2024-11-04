@@ -62,14 +62,13 @@ function BangaloreProperties() {
     { name: 'Industrial Land', icon: faIndustry },
     { name: 'River Side Property', icon: faWater },
     { name: 'Residential House/Villa', icon: faHome },
-  ];  
+  ];   
 
   return (
     <Container className="bangaloreProperties">
-      <Row className="my-5">
+      <Row className="my-5 banhead py-5">
         <Col>
           <h1 className="text-center">Bangalore Properties</h1>
-          <p className="text-center">Explore available properties in Bangalore for purchase.</p>
         </Col>
       </Row>
 
@@ -93,73 +92,83 @@ function BangaloreProperties() {
     </Row>
 
       <Row>
-        {filteredProperties.map((property) => (
-          <Col md={12} key={property.id}>
-            <Card className="mb-4 property-card shadow-sm">
-              <Row>
-                {/* Property Image */}
-                <Col md={4}>
-                  <Card.Img variant="top" src={property.images[0]} className="img-fluid" />
-                </Col>
+    {filteredProperties.map((property) => (
+      <Col md={12} key={property.id}>
+        <Card className="mb-4 property-card shadow-sm">
+          <Row>
+            {/* Property Image */}
+            <Col md={4}>
+              {/* Check if images exist and has at least one image */}
+              {property.images && property.images.length > 0 ? (
+                <Card.Img variant="top" src={property.images[0]} className="img-fluid" />
+              ) : (
+                <div className="placeholder-image">No Image Available</div>
+              )}
+            </Col>
 
-                {/* Property Details */}
-                <Col md={5}>
-                <Card.Body>
-                  <Card.Title className="property-title mb-3">{property.title}</Card.Title>
-                  <ul>
-                    {property.extent && (
-                      <li>
-                        <Card.Text className='mb-3'><strong>Extent -</strong> {property.extent}</Card.Text>
-                      </li>
-                    )}
-                    {property.location && (
-                      <li>
-                        <Card.Text><strong>Location:</strong> {property.location}</Card.Text>
-                      </li>
-                    )}
-                    {/* Uncomment below if needed */}
-                    {/* {property.distance && (
-                      <li>
-                        <Card.Text><strong>Status:</strong> {property.distance}</Card.Text>
-                      </li>
-                    )} */}
-                    {property.duplexground && (
-                      <li>
-                        <Card.Text className='mt-3'><strong>Duplex/Ground -</strong> {property.duplexground}</Card.Text>
-                      </li>
-                    )}
-                    {property.siteDimension && (
-                      <li>
-                        <Card.Text className='mt-3'><strong>Site Dimention -</strong> {property.siteDimension}</Card.Text>
-                      </li>
-                    )}
-                    {/* Uncomment below if needed */}
-                    {/* {property.totalPrice && (
-                      <li>
-                        <Card.Text><strong>Price per Sqft:</strong> ₹{property.totalPrice} per sqft</Card.Text>
-                      </li>
-                    )} */}
-                  </ul>
-                </Card.Body>
-                </Col>
+            {/* Property Details */}
+            <Col md={5}>
+              <Card.Body>
+                <Card.Title className="property-title mb-3">{property.title}</Card.Title>
+                <ul>
+                  {property.extent && (
+                    <li>
+                      <Card.Text className='mb-3'><strong>Extent -</strong> {property.extent}</Card.Text>
+                    </li>
+                  )}
+                  {property.area && (
+                    <li>
+                      <Card.Text className='mt-3'><strong>Location -</strong> {property.area}</Card.Text>
+                    </li>
+                  )}
+                  {property.location && (
+                    <li>
+                      <Card.Text><strong>Location -</strong> {property.location}</Card.Text>
+                    </li>
+                  )}
+                  {property.bedrooms && (
+                    <li>
+                      <Card.Text className='mt-3'><strong>BHK -</strong> {property.bedrooms}</Card.Text>
+                    </li>
+                  )}
+                  {property.duplexground && (
+                    <li>
+                      <Card.Text className='mt-3'><strong>Duplex/Ground -</strong> {property.duplexground}</Card.Text>
+                    </li>
+                  )}
+                  {property.siteDimension && property.title !== "Residential House for Sale" && (
+                    <li>
+                      <Card.Text className='mt-3'>
+                        <strong>Site Dimension -</strong> {property.siteDimension}
+                      </Card.Text>
+                    </li>
+                  )}
+                  {property.groundduplex && (
+                    <li>
+                      <Card.Text className='mt-3'><strong>Duplex House -</strong> {property.groundduplex}</Card.Text>
+                    </li>
+                  )}
+                </ul>
+              </Card.Body>
+            </Col>
 
-                {/* Action Buttons */}
-                <Col md={3} className="text-center d-flex flex-column justify-content-center mt-5">
-                  <Card.Body>
-                    {/* <Card.Text className="fs-4 fw-bold">₹{property.totalPrice}</Card.Text> */}
-                    <Button variant="primary" className="mb-2 w-100 contact-btn" onClick={() => handleModalOpen(property)}>
-                      Contact
-                    </Button>
-                    <Button variant="secondary" className="w-100" onClick={() => handleSearch(property.id)}>
-                      View Property Details
-                    </Button>
-                  </Card.Body>
-                </Col>
-              </Row>
-            </Card>
-          </Col>
-        ))}
-      </Row>
+            {/* Action Buttons */}
+            <Col md={3} className="text-center d-flex flex-column justify-content-center mt-5">
+              <Card.Body>
+                <Button variant="primary" className="mb-2 w-100 contact-btn" onClick={() => handleModalOpen(property)}>
+                  Contact
+                </Button>
+                <Button variant="secondary" className="w-100" onClick={() => handleSearch(property.id)}>
+                  View Property Details
+                </Button>
+              </Card.Body>
+            </Col>
+          </Row>
+        </Card>
+      </Col>
+    ))}
+  </Row>
+
 
       {/* Modal for Get a Quote */}
       {selectedProduct && (
@@ -206,7 +215,7 @@ function BangaloreProperties() {
                   required
                 />
               </Form.Group>
-              <Button className="danger" type="submit">
+              <Button className="submit" type="submit">
                 Submit Quote Request
               </Button>
             </Form>

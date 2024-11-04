@@ -129,31 +129,31 @@ function MysorePropertyDetail() {
 
               <Col xs={12} md={4}>
                 <ul>
-                  {property.fencing && <li><strong>Fencing -</strong> {property.fencing}</li>}
+                {property.fencing && <li><strong>Fencing -</strong> {property.fencing}</li>}
                   {property.roadWidth && <li><strong>Road Width - </strong> {property.roadWidth}</li>}
                   {(property.category === 'Agricultural Land' || property.category === 'River Side Property') && (
                     <>
-                      <li><strong>Borewell - </strong> {property.borewell ? 'Yes' : 'No'}</li>
-                      <li><strong>Open Well - </strong> {property.openWell ? 'Yes' : 'No'}</li>
-                      <li><strong>Farmhouse - </strong> {property.farmhouse ? 'Yes' : 'No'}</li>
-                      <li><strong>Pump House - </strong> {property.pumpHouse ? 'Yes' : 'No'}</li>
-                      <li><strong>Cow Shed - </strong> {property.cowShed ? 'Yes' : 'No'}</li>
+                      {property.borewell && <li><strong>Borewell - </strong> {property.borewell}</li>}
+                      {property.openWell && <li><strong>Open Well - </strong> {property.openWell}</li>}
+                      {property.farmhouse && <li><strong>Farmhouse - </strong> {property.farmhouse}</li>}
+                      {property.pumpHouse && <li><strong>Pump House - </strong> {property.pumpHouse}</li>}
+                      {property.cowShed && <li><strong>Cow Shed - </strong> {property.cowShed}</li>}
                     </>
                   )}
                   {(property.category === 'Residential Plot' || property.category === 'Commercial Plot') && (
                     <>
-                      <li><strong>Muda Allotted - </strong> {property.mudaAllotted ? 'Yes' : 'No'}</li>
-                      <li><strong>Muda Approved - </strong> {property.mudaApproved ? 'Yes' : 'No'}</li>
-                      <li><strong>DTCP Approved - </strong> {property.dtcpApproved ? 'Yes' : 'No'}</li>
-                      <li><strong>Price / sqft - </strong> {property.pricePerSqft}</li>
+                      {property.mudaAllotted && <li><strong>Muda Allotted - </strong> {property.mudaAllotted}</li>}
+                      {property.mudaApproved && <li><strong>Muda Approved - </strong> {property.mudaApproved}</li>}
+                      {property.dtcpApproved && <li><strong>DTCP Approved - </strong> {property.dtcpApproved}</li>}
+                      {property.pricePerSqft && <li><strong>Price / sqft - </strong> {property.pricePerSqft}</li>}
                     </>
                   )}
                   {(property.category === 'Residential House/Villa') && (
                     <>
-                      <li><strong>Muda Allotted - </strong> {property.mudaAllotted ? 'Yes' : 'No'}</li>
-                      <li><strong>Muda Approved - </strong> {property.mudaApproved ? 'Yes' : 'No'}</li>
-                      <li><strong>DTCP Approved - </strong> {property.dtcpApproved ? 'Yes' : 'No'}</li>
-                      <li><strong>Price / sqft - </strong> {property.pricePerSqft}</li>
+                      {property.mudaAllotted && <li><strong>Muda Allotted - </strong> {property.mudaAllotted}</li>}
+                      {property.mudaApproved && <li><strong>Muda Approved - </strong> {property.mudaApproved}</li>}
+                      {property.dtcpApproved && <li><strong>DTCP Approved - </strong> {property.dtcpApproved}</li>}
+                      {property.pricePerSqft && <li><strong>Price / sqft - </strong> {property.pricePerSqft}</li>}
                     </>
                   )}
                   {property.pricePerGunta && <li><strong>Price Per Gunta - </strong> {property.pricePerGunta}</li>}

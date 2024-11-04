@@ -24,7 +24,7 @@ const Footer = () => {
                         <p># 82, 4th Floor, Pipeline, 11th Cross Malleshwaram,<br /> Bangalore - 560003</p>
                     </Col>
                     <Col md={2} xs={12}>
-                        <ul className="list-unstyled d-flex flex-row mt-5">
+                        <ul className="list-unstyled d-flex flex-row">
                             <li className="ms-3">
                                 <a href="https://www.instagram.com/eagle_properties?igsh=bnd5c2NsNHV2dXpk" className="text-white" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faInstagram} size="2x" /><br/>Instagram

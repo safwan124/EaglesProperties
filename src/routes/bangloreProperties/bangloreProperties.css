@@ -12,7 +12,7 @@
 
 .property-title {
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .property-card .btn {
@@ -38,4 +38,7 @@
 .contact-btn {
   background-color: rgb(141, 141, 141) !important;
   font-weight: bold !important;
+}
+.banhead {
+  background-color: #f4f4f4;
 }

@@ -19,14 +19,16 @@
 }
 
 .nav-link {
-  color: rgb(145, 144, 144);
+  color: rgb(81, 81, 81);
   font-weight: 500;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: rgb(117, 117, 117);
+  color: rgb(32, 32, 32);
   text-decoration: underline;
+  text-decoration-thickness: 2px; /* Adjust thickness here */
+  text-underline-offset: 3px; /* Adjust offset if needed */
 }
 
 .location-select-form {

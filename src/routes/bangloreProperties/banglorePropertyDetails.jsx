@@ -1,22 +1,43 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { bangalorePropertiesData } from "../../lib/dummyData";
-import React, { useState } from 'react';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Card, Button, Carousel, Modal, Form } from 'react-bootstrap';
 
 function BangalorePropertyDetail() {
   const { id } = useParams();
-  const property = bangalorePropertiesData.find((p) => p.id === parseInt(id));
-  const [showFullDetails, setShowFullDetails] = useState(false);
+  const [property, setProperty] = useState(null);
   const [showContactModal, setShowContactModal] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phoneNumber: ''
   });
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true); // Loading state
   const navigate = useNavigate();
 
-  if (!property) {
-    return <div>Property not found</div>;
+  useEffect(() => {
+    axios.get(`http://localhost:5000/properties/${id}`)
+      .then(response => {
+        const fetchedProperty = response.data;
+        fetchedProperty.images = JSON.parse(fetchedProperty.images);
+        setProperty(fetchedProperty);
+        setLoading(false); // Stop loading once data is fetched
+        setError(null);
+      })
+      .catch(error => {
+        console.error("Error fetching property data:", error);
+        setError("Unable to fetch property data. Please try again later.");
+        setLoading(false);
+      });
+  }, [id]);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>{error}</div>;
   }
 
   const handleInputChange = (e) => {
@@ -42,12 +63,34 @@ function BangalorePropertyDetail() {
         <Col md={12}>
           <Button variant="secondary" onClick={() => navigate(-1)} className="mb-4">Back</Button>
           <Card className="mb-4 shadow-sm">
-            <Carousel>
-              {property.images.map((image, index) => (
-                <Carousel.Item key={index}>
-                  <img className="d-block w-100" src={image} alt={property.title} />
-                </Carousel.Item>
-              ))}
+          <Carousel>
+              {property && property.images && property.images.length > 0 ? (
+                <Carousel>
+                  {property.images.map((media, index) => (
+                    <Carousel.Item key={index}>
+                      {/* Check if the media item is an image or a video based on its file extension */}
+                      {media.endsWith('.jpg') || media.endsWith('.png') || media.endsWith('.jpeg') ? (
+                        <img
+                          className="d-block w-100"
+                          src={`http://localhost:5000${media.startsWith('/uploads') ? '' : '/uploads'}${media || '/noimg.png'}`}
+                          alt={`Slide ${index + 1}`}
+                        />
+                      ) : (
+                        <video
+                          className="d-block w-100"
+                          controls
+                          alt={`Video Slide ${index + 1}`}
+                        >
+                          <source src={`http://localhost:5000${media.startsWith('/uploads') ? '' : '/uploads'}${media}`} />
+                          Your browser does not support the video tag.
+                        </video>
+                      )}
+                    </Carousel.Item>
+                  ))}
+                </Carousel>
+              ) : (
+                <p>No media available</p>
+              )}
             </Carousel>
             <Card.Body>
             <Card.Title className="mb-5">{property.title}</Card.Title>
@@ -101,8 +144,8 @@ function BangalorePropertyDetail() {
                   {property.totalBuiltUpArea && <li><strong>Total Built-Up Area - </strong> {property.totalBuiltUpArea}</li>}
                   {property.balconies && <li><strong>Balconies - </strong> {property.balconies}</li>}
                   {property.totalFloors && <li><strong>Total Floors - </strong> {property.totalFloors}</li>}
-                  {property.semiFurnished && <li><strong>Semi-Furnished - </strong> {property.semiFurnished ? 'Yes' : 'No'}</li>}
-                  {property.fullyFurnished && <li><strong>Fully Furnished - </strong> {property.fullyFurnished ? 'Yes' : 'No'}</li>}
+                  {property.semiFurnished && <li><strong>Semi-Furnished - </strong> {property.semiFurnished}</li>}
+                  {property.fullyFurnished && <li><strong>Fully Furnished - </strong> {property.fullyFurnished}</li>}
                   {property.carParking && <li><strong>Car Parking - </strong> {property.carParking}</li>}
                   {property.flooring && <li><strong>Flooring - </strong> {property.flooring}</li>}
                   {property.SemiFurnished && <li><strong>SemiFurnished - </strong> {property.SemiFurnished}</li>}
@@ -119,27 +162,27 @@ function BangalorePropertyDetail() {
                   {property.roadWidth && <li><strong>Road Width - </strong> {property.roadWidth}</li>}
                   {(property.category === 'Agricultural Land' || property.category === 'River Side Property') && (
                     <>
-                      <li><strong>Borewell - </strong> {property.borewell ? 'Yes' : 'No'}</li>
-                      <li><strong>Open Well - </strong> {property.openWell ? 'Yes' : 'No'}</li>
-                      <li><strong>Farmhouse - </strong> {property.farmhouse ? 'Yes' : 'No'}</li>
-                      <li><strong>Pump House - </strong> {property.pumpHouse ? 'Yes' : 'No'}</li>
-                      <li><strong>Cow Shed - </strong> {property.cowShed ? 'Yes' : 'No'}</li>
+                      {property.borewell && <li><strong>Borewell - </strong> {property.borewell}</li>}
+                      {property.openWell && <li><strong>Open Well - </strong> {property.openWell}</li>}
+                      {property.farmhouse && <li><strong>Farmhouse - </strong> {property.farmhouse}</li>}
+                      {property.pumpHouse && <li><strong>Pump House - </strong> {property.pumpHouse}</li>}
+                      {property.cowShed && <li><strong>Cow Shed - </strong> {property.cowShed}</li>}
                     </>
                   )}
                   {(property.category === 'Residential Plot' || property.category === 'Commercial Plot') && (
                     <>
-                      <li><strong>Muda Allotted - </strong> {property.mudaAllotted ? 'Yes' : 'No'}</li>
-                      <li><strong>Muda Approved - </strong> {property.mudaApproved ? 'Yes' : 'No'}</li>
-                      <li><strong>DTCP Approved - </strong> {property.dtcpApproved ? 'Yes' : 'No'}</li>
-                      <li><strong>Price / sqft - </strong> {property.pricePerSqft}</li>
+                      {property.mudaAllotted && <li><strong>Muda Allotted - </strong> {property.mudaAllotted}</li>}
+                      {property.mudaApproved && <li><strong>Muda Approved - </strong> {property.mudaApproved}</li>}
+                      {property.dtcpApproved && <li><strong>DTCP Approved - </strong> {property.dtcpApproved}</li>}
+                      {property.pricePerSqft && <li><strong>Price / sqft - </strong> {property.pricePerSqft}</li>}
                     </>
                   )}
                   {(property.category === 'Residential House/Villa') && (
                     <>
-                      <li><strong>Muda Allotted - </strong> {property.mudaAllotted ? 'Yes' : 'No'}</li>
-                      <li><strong>Muda Approved - </strong> {property.mudaApproved ? 'Yes' : 'No'}</li>
-                      <li><strong>DTCP Approved - </strong> {property.dtcpApproved ? 'Yes' : 'No'}</li>
-                      <li><strong>Price / sqft - </strong> {property.pricePerSqft}</li>
+                      {property.mudaAllotted && <li><strong>Muda Allotted - </strong> {property.mudaAllotted}</li>}
+                      {property.mudaApproved && <li><strong>Muda Approved - </strong> {property.mudaApproved}</li>}
+                      {property.dtcpApproved && <li><strong>DTCP Approved - </strong> {property.dtcpApproved}</li>}
+                      {property.pricePerSqft && <li><strong>Price / sqft - </strong> {property.pricePerSqft}</li>}
                     </>
                   )}
                   {property.pricePerGunta && <li><strong>Price Per Gunta - </strong> {property.pricePerGunta}</li>}
