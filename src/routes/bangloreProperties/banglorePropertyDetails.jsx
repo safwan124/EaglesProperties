@@ -1,43 +1,22 @@
 import { useParams, useNavigate } from "react-router-dom";
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import { bangalorePropertiesData } from "../../lib/dummyData";
+import React, { useState } from 'react';
 import { Container, Row, Col, Card, Button, Carousel, Modal, Form } from 'react-bootstrap';
 
 function BangalorePropertyDetail() {
   const { id } = useParams();
-  const [property, setProperty] = useState(null);
+  const property = bangalorePropertiesData.find((p) => p.id === parseInt(id));
+  const [showFullDetails, setShowFullDetails] = useState(false);
   const [showContactModal, setShowContactModal] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phoneNumber: ''
   });
-  const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(true); // Loading state
   const navigate = useNavigate();
 
-  useEffect(() => {
-    axios.get(`http://localhost:5000/properties/${id}`)
-      .then(response => {
-        const fetchedProperty = response.data;
-        fetchedProperty.images = JSON.parse(fetchedProperty.images);
-        setProperty(fetchedProperty);
-        setLoading(false); // Stop loading once data is fetched
-        setError(null);
-      })
-      .catch(error => {
-        console.error("Error fetching property data:", error);
-        setError("Unable to fetch property data. Please try again later.");
-        setLoading(false);
-      });
-  }, [id]);
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
-  if (error) {
-    return <div>{error}</div>;
+  if (!property) {
+    return <div>Property not found</div>;
   }
 
   const handleInputChange = (e) => {
@@ -64,33 +43,11 @@ function BangalorePropertyDetail() {
           <Button variant="secondary" onClick={() => navigate(-1)} className="mb-4">Back</Button>
           <Card className="mb-4 shadow-sm">
           <Carousel>
-              {property && property.images && property.images.length > 0 ? (
-                <Carousel>
-                  {property.images.map((media, index) => (
-                    <Carousel.Item key={index}>
-                      {/* Check if the media item is an image or a video based on its file extension */}
-                      {media.endsWith('.jpg') || media.endsWith('.png') || media.endsWith('.jpeg') ? (
-                        <img
-                          className="d-block w-100"
-                          src={`http://localhost:5000${media.startsWith('/uploads') ? '' : '/uploads'}${media || '/noimg.png'}`}
-                          alt={`Slide ${index + 1}`}
-                        />
-                      ) : (
-                        <video
-                          className="d-block w-100"
-                          controls
-                          alt={`Video Slide ${index + 1}`}
-                        >
-                          <source src={`http://localhost:5000${media.startsWith('/uploads') ? '' : '/uploads'}${media}`} />
-                          Your browser does not support the video tag.
-                        </video>
-                      )}
-                    </Carousel.Item>
-                  ))}
-                </Carousel>
-              ) : (
-                <p>No media available</p>
-              )}
+              {property.images.map((image, index) => (
+                <Carousel.Item key={index}>
+                  <img className="d-block w-100" src={image} alt={property.title} />
+                </Carousel.Item>
+              ))}
             </Carousel>
             <Card.Body>
             <Card.Title className="mb-5">{property.title}</Card.Title>
