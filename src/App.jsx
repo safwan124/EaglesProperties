@@ -11,6 +11,7 @@ import MysorePropertyDetail from './routes/mysoreProperties/mysorePropertyDetail
 import About from './components/about/about';
 import Blogs from './components/blogs/blogs';
 import Contact from './components/contact/contact';
+import CampaignPage from './routes/campagin';
 
 function App() {
   const router = createBrowserRouter([
@@ -49,6 +50,10 @@ function App() {
         {
           path: "/contact",
           element: <Contact />
+        },
+        {
+          path: "/campaign",
+          element: <CampaignPage />
         }
       ]
     }

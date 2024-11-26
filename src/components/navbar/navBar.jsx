@@ -51,7 +51,6 @@ function MyNavbar() {
 
   useEffect(() => {
     closeNav();
-    // Reset selected location when the route changes
     setSelectedLocation("");
   }, [location]);
 
@@ -59,6 +58,9 @@ function MyNavbar() {
     handleModalOpen();
     closeNav();
   };
+
+  // Check if the current route is '/campaign'
+  const isCampaignPage = location.pathname === "/campaign";
 
   return (
     <>
@@ -71,44 +73,44 @@ function MyNavbar() {
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleNavToggle} />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Item>
-                <Nav.Link as={Link} to="/" className={location.pathname === "/" ? "active" : ""} onClick={closeNav}>Home</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link as={Link} to="/about-us" className={location.pathname === "/about-us" ? "active" : ""} onClick={closeNav}>About Us</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link as={Link} to="/blogs" className={location.pathname === "/blogs" ? "active" : ""} onClick={closeNav}>Blogs</Nav.Link>
-              </Nav.Item>
+            {!isCampaignPage && (
+              <Nav className="ms-auto">
+                <Nav.Item>
+                  <Nav.Link as={Link} to="/" className={location.pathname === "/" ? "active" : ""} onClick={closeNav}>Home</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link as={Link} to="/about-us" className={location.pathname === "/about-us" ? "active" : ""} onClick={closeNav}>About Us</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link as={Link} to="/blogs" className={location.pathname === "/blogs" ? "active" : ""} onClick={closeNav}>Blogs</Nav.Link>
+                </Nav.Item>
 
-              {/* Location Selector */}
-              <Nav.Item>
-                <Form className="location-select-form">
-                  <Form.Select
-                    value={selectedLocation}
-                    onChange={handleLocationChange}
-                    className="location-select"
-                    required
-                  >
-                    <option value="">Select Location</option>
-                    {locations.map((location) => (
-                      <option key={location} value={location}>
-                        {location}
-                      </option>
-                    ))}
-                  </Form.Select>
-                </Form>
-              </Nav.Item>
+                <Nav.Item>
+                  <Form className="location-select-form">
+                    <Form.Select
+                      value={selectedLocation}
+                      onChange={handleLocationChange}
+                      className="location-select"
+                      required
+                    >
+                      <option value="">Select Location</option>
+                      {locations.map((location) => (
+                        <option key={location} value={location}>
+                          {location}
+                        </option>
+                      ))}
+                    </Form.Select>
+                  </Form>
+                </Nav.Item>
 
-              {/* Contact Us opens modal */}
-              <Nav.Item>
-                <Nav.Link onClick={handleModalAndCloseNav}>Book a Site Visit Now</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link as={Link} to="/contact" className={location.pathname === "/contact" ? "active" : ""} onClick={closeNav}>Contact Us</Nav.Link>
-              </Nav.Item>
-            </Nav>
+                <Nav.Item>
+                  <Nav.Link onClick={handleModalAndCloseNav}>Book a Site Visit Now</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link as={Link} to="/contact" className={location.pathname === "/contact" ? "active" : ""} onClick={closeNav}>Contact Us</Nav.Link>
+                </Nav.Item>
+              </Nav>
+            )}
           </Navbar.Collapse>
         </Container>
       </Navbar>
