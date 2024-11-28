@@ -1,0 +1,957 @@
+
+> eaglesproperties@0.0.0 dev
+> vite --host
+
+
+  VITE v5.4.8  ready in 129 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://62.72.58.4:5173/
+Deprecation [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+Deprecation [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+7:47:49 PM [vite] Pre-transform error: Failed to load url /assets/index-BhGEggpL.js (resolved id: /assets/index-BhGEggpL.js). Does the file exist?
+Files in the public directory are served at the root path.
+Instead of /public/img/cz1.png, use /img/cz1.png.
+Files in the public directory are served at the root path.
+Instead of /public/css/style.css, use /css/style.css.
+Files in the public directory are served at the root path.
+Instead of /public/wap/js/basis.js, use /wap/js/basis.js.
+Files in the public directory are served at the root path.
+Instead of /public/h5static/js/main.js, use /h5static/js/main.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/img/index/pay1.png, use /assets/img/index/pay1.png.
+Files in the public directory are served at the root path.
+Instead of /public/assets/js/lib/my-help.js, use /assets/js/lib/my-help.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/home/js/moblie/login.js, use /static/home/js/moblie/login.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/index/picture/img_33.png, use /static/index/picture/img_33.png.
+7:47:56 PM [vite] Pre-transform error: Failed to load url /assets/index-BhGEggpL.js (resolved id: /assets/index-BhGEggpL.js). Does the file exist?
+Files in the public directory are served at the root path.
+Instead of /public/img/cz1.png, use /img/cz1.png.
+Files in the public directory are served at the root path.
+Instead of /public/css/style.css, use /css/style.css.
+Files in the public directory are served at the root path.
+Instead of /public/wap/js/basis.js, use /wap/js/basis.js.
+Files in the public directory are served at the root path.
+Instead of /public/h5static/js/main.js, use /h5static/js/main.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/js/lib/my-help.js, use /assets/js/lib/my-help.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/img/index/pay1.png, use /assets/img/index/pay1.png.
+Files in the public directory are served at the root path.
+Instead of /public/static/home/js/moblie/login.js, use /static/home/js/moblie/login.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/index/picture/img_33.png, use /static/index/picture/img_33.png.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php, use /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php.
+Files in the public directory are served at the root path.
+Instead of /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello, use /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello.
+Files in the public directory are served at the root path.
+Instead of /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php, use /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php.
+Files in the public directory are served at the root path.
+Instead of /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello, use /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello.
+1:05:33 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/index
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+2:04:09 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/index
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+Files in the public directory are served at the root path.
+Instead of /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php, use /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php.
+Files in the public directory are served at the root path.
+Instead of /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello, use /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello.
+4:26:01 PM [vite] Pre-transform error: Failed to load url /assets/index-BhGEggpL.js (resolved id: /assets/index-BhGEggpL.js). Does the file exist?
+Files in the public directory are served at the root path.
+Instead of /public/img/cz1.png, use /img/cz1.png.
+Files in the public directory are served at the root path.
+Instead of /public/css/style.css, use /css/style.css.
+Files in the public directory are served at the root path.
+Instead of /public/wap/js/basis.js, use /wap/js/basis.js.
+Files in the public directory are served at the root path.
+Instead of /public/h5static/js/main.js, use /h5static/js/main.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/img/index/pay1.png, use /assets/img/index/pay1.png.
+Files in the public directory are served at the root path.
+Instead of /public/assets/js/lib/my-help.js, use /assets/js/lib/my-help.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/home/js/moblie/login.js, use /static/home/js/moblie/login.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/index/picture/img_33.png, use /static/index/picture/img_33.png.
+4:26:10 PM [vite] Pre-transform error: Failed to load url /assets/index-BhGEggpL.js (resolved id: /assets/index-BhGEggpL.js). Does the file exist?
+Files in the public directory are served at the root path.
+Instead of /public/img/cz1.png, use /img/cz1.png.
+Files in the public directory are served at the root path.
+Instead of /public/css/style.css, use /css/style.css.
+Files in the public directory are served at the root path.
+Instead of /public/wap/js/basis.js, use /wap/js/basis.js.
+Files in the public directory are served at the root path.
+Instead of /public/h5static/js/main.js, use /h5static/js/main.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/js/lib/my-help.js, use /assets/js/lib/my-help.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/img/index/pay1.png, use /assets/img/index/pay1.png.
+Files in the public directory are served at the root path.
+Instead of /public/static/home/js/moblie/login.js, use /static/home/js/moblie/login.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/index/picture/img_33.png, use /static/index/picture/img_33.png.
+5:58:30 PM [vite] Pre-transform error: Failed to load url /assets/index-BhGEggpL.js (resolved id: /assets/index-BhGEggpL.js). Does the file exist?
+Files in the public directory are served at the root path.
+Instead of /public/img/cz1.png, use /img/cz1.png.
+Files in the public directory are served at the root path.
+Instead of /public/css/style.css, use /css/style.css.
+Files in the public directory are served at the root path.
+Instead of /public/wap/js/basis.js, use /wap/js/basis.js.
+Files in the public directory are served at the root path.
+Instead of /public/h5static/js/main.js, use /h5static/js/main.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/js/lib/my-help.js, use /assets/js/lib/my-help.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/img/index/pay1.png, use /assets/img/index/pay1.png.
+Files in the public directory are served at the root path.
+Instead of /public/static/home/js/moblie/login.js, use /static/home/js/moblie/login.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/index/picture/img_33.png, use /static/index/picture/img_33.png.
+11:37:10 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/index
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+5:43:00 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/index
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+Files in the public directory are served at the root path.
+Instead of /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php, use /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php.
+Files in the public directory are served at the root path.
+Instead of /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello, use /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+2:53:34 AM [vite] page reload index.html
+2:53:34 AM [vite] hmr update /src/App.jsx
+2:53:34 AM [vite] hmr update /src/components/categories/category.css
+2:53:34 AM [vite] hmr update /src/components/categories/category.jsx
+2:53:34 AM [vite] hmr update /src/components/footer/footer.jsx
+2:53:34 AM [vite] hmr update /src/components/navbar/navBar.jsx
+2:53:34 AM [vite] hmr update /src/components/navbar/navbar.css
+2:53:34 AM [vite] hmr update /src/components/searchBar/searchBar.css
+2:53:34 AM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.jsx, /src/routes/bangloreProperties/bangloreProperties.jsx, /src/routes/bangloreProperties/banglorePropertyDetails.jsx, /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+2:53:34 AM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.css
+2:53:34 AM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.jsx
+2:53:34 AM [vite] hmr update /src/routes/homePage/homePage.jsx
+2:53:34 AM [vite] hmr update /src/routes/layout/layout.jsx
+2:53:34 AM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.css
+2:53:34 AM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.jsx
+2:53:34 AM [vite] hmr update /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+2:53:34 AM [vite] hmr update /src/routes/homePage/homePage.scss, /src/routes/layout/layout.scss
+2:53:34 AM [vite] hmr update /src/routes/homePage/homePage.scss
+2:53:34 AM [vite] hmr update /src/routes/layout/layout.scss
+2:53:45 AM [vite] Pre-transform error: Failed to resolve import "react-countup" from "src/components/about/about.jsx". Does the file exist?
+2:53:45 AM [vite] Pre-transform error: Failed to resolve import "react-countup" from "src/components/about/about.jsx". Does the file exist?
+2:53:45 AM [vite] Pre-transform error: Failed to resolve import "@fortawesome/free-brands-svg-icons" from "src/components/footer/footer.jsx". Does the file exist?
+2:53:45 AM [vite] Pre-transform error: Failed to resolve import "@fortawesome/free-brands-svg-icons" from "src/components/footer/footer.jsx". Does the file exist?
+2:53:45 AM [vite] Pre-transform error: Failed to resolve import "@fortawesome/free-brands-svg-icons" from "src/components/footer/footer.jsx". Does the file exist?
+2:53:45 AM [vite] Pre-transform error: Failed to resolve import "@fortawesome/free-brands-svg-icons" from "src/components/footer/footer.jsx". Does the file exist?
+2:53:46 AM [vite] Internal server error: Failed to resolve import "react-countup" from "src/components/about/about.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/src/components/about/about.jsx:2:20
+  17 |  var _s = $RefreshSig$();
+  18 |  import React, { useState } from "react";
+  19 |  import CountUp from "react-countup";
+     |                       ^
+  20 |  import { Container, Row, Col } from "react-bootstrap";
+  21 |  import "./about.css";
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+2:53:46 AM [vite] Internal server error: Failed to resolve import "@fortawesome/free-brands-svg-icons" from "src/components/footer/footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/src/components/footer/footer.jsx:5:40
+  19 |  import "./footer.css";
+  20 |  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+  21 |  import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+     |                                           ^
+  22 |  const Footer = () => {
+  23 |    return /* @__PURE__ */ jsxDEV("footer", { className: "footer text-white py-4", children: /* @__PURE__ */ jsxDEV(Container, { children: /* @__PURE__ */ jsxDEV(Row, { children: [
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+2:54:19 AM [vite] Internal server error: Failed to resolve import "react-countup" from "src/components/about/about.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/src/components/about/about.jsx:2:20
+  17 |  var _s = $RefreshSig$();
+  18 |  import React, { useState } from "react";
+  19 |  import CountUp from "react-countup";
+     |                       ^
+  20 |  import { Container, Row, Col } from "react-bootstrap";
+  21 |  import "./about.css";
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+2:54:19 AM [vite] Internal server error: Failed to resolve import "@fortawesome/free-brands-svg-icons" from "src/components/footer/footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/src/components/footer/footer.jsx:5:40
+  19 |  import "./footer.css";
+  20 |  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+  21 |  import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+     |                                           ^
+  22 |  const Footer = () => {
+  23 |    return /* @__PURE__ */ jsxDEV("footer", { className: "footer text-white py-4", children: /* @__PURE__ */ jsxDEV(Container, { children: /* @__PURE__ */ jsxDEV(Row, { children: [
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+2:54:23 AM [vite] Internal server error: Failed to resolve import "react-countup" from "src/components/about/about.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/src/components/about/about.jsx:2:20
+  17 |  var _s = $RefreshSig$();
+  18 |  import React, { useState } from "react";
+  19 |  import CountUp from "react-countup";
+     |                       ^
+  20 |  import { Container, Row, Col } from "react-bootstrap";
+  21 |  import "./about.css";
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+2:54:25 AM [vite] Internal server error: Failed to resolve import "react-countup" from "src/components/about/about.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/src/components/about/about.jsx:2:20
+  17 |  var _s = $RefreshSig$();
+  18 |  import React, { useState } from "react";
+  19 |  import CountUp from "react-countup";
+     |                       ^
+  20 |  import { Container, Row, Col } from "react-bootstrap";
+  21 |  import "./about.css";
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+2:54:26 AM [vite] Internal server error: Failed to resolve import "@fortawesome/free-brands-svg-icons" from "src/components/footer/footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/src/components/footer/footer.jsx:5:40
+  19 |  import "./footer.css";
+  20 |  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+  21 |  import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+     |                                           ^
+  22 |  const Footer = () => {
+  23 |    return /* @__PURE__ */ jsxDEV("footer", { className: "footer text-white py-4", children: /* @__PURE__ */ jsxDEV(Container, { children: /* @__PURE__ */ jsxDEV(Row, { children: [
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+2:58:23 AM [vite] ✨ new dependencies optimized: react-countup, @fortawesome/free-brands-svg-icons
+2:58:23 AM [vite] ✨ optimized dependencies changed. reloading
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+3:16:59 AM [vite] hmr update /src/components/contact/contact.jsx
+3:16:59 AM [vite] hmr update /src/routes/homePage/homePage.css
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+2:55:46 AM [vite] hmr update /src/components/about/about.jsx
+2:55:46 AM [vite] hmr update /src/components/categories/category.css
+2:55:46 AM [vite] hmr update /src/components/contact/contact.jsx
+2:55:46 AM [vite] hmr update /src/components/footer/footer.jsx
+2:55:46 AM [vite] hmr update /src/components/navbar/navBar.jsx
+2:55:46 AM [vite] hmr update /src/routes/homePage/homePage.css
+2:55:46 AM [vite] hmr update /src/routes/homePage/homePage.jsx
+2:55:46 AM [vite] hmr update /src/routes/layout/layout.css
+3:51:54 AM [vite] Pre-transform error: Failed to load url /assets/index-QgpHFl1f.js (resolved id: /assets/index-QgpHFl1f.js). Does the file exist?
+Files in the public directory are served at the root path.
+Instead of /public/img/cz1.png, use /img/cz1.png.
+Files in the public directory are served at the root path.
+Instead of /public/css/style.css, use /css/style.css.
+Files in the public directory are served at the root path.
+Instead of /public/wap/js/basis.js, use /wap/js/basis.js.
+Files in the public directory are served at the root path.
+Instead of /public/api/index/config, use /api/index/config.
+Files in the public directory are served at the root path.
+Instead of /public/h5static/js/main.js, use /h5static/js/main.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/js/lib/my-help.js, use /assets/js/lib/my-help.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/img/index/pay1.png, use /assets/img/index/pay1.png.
+Files in the public directory are served at the root path.
+Instead of /public/static/home/js/moblie/login.js, use /static/home/js/moblie/login.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/index/picture/img_33.png, use /static/index/picture/img_33.png.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+11:20:43 AM [vite] Pre-transform error: Failed to load url /assets/index-QgpHFl1f.js (resolved id: /assets/index-QgpHFl1f.js). Does the file exist?
+Files in the public directory are served at the root path.
+Instead of /public/img/cz1.png, use /img/cz1.png.
+Files in the public directory are served at the root path.
+Instead of /public/css/style.css, use /css/style.css.
+Files in the public directory are served at the root path.
+Instead of /public/wap/js/basis.js, use /wap/js/basis.js.
+Files in the public directory are served at the root path.
+Instead of /public/api/index/config, use /api/index/config.
+Files in the public directory are served at the root path.
+Instead of /public/assets/img/index/pay1.png, use /assets/img/index/pay1.png.
+Files in the public directory are served at the root path.
+Instead of /public/assets/js/lib/my-help.js, use /assets/js/lib/my-help.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/home/js/moblie/login.js, use /static/home/js/moblie/login.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/index/picture/img_33.png, use /static/index/picture/img_33.png.
+11:21:04 AM [vite] Pre-transform error: Failed to load url /assets/index-QgpHFl1f.js (resolved id: /assets/index-QgpHFl1f.js). Does the file exist?
+Files in the public directory are served at the root path.
+Instead of /public/img/cz1.png, use /img/cz1.png.
+Files in the public directory are served at the root path.
+Instead of /public/css/style.css, use /css/style.css.
+Files in the public directory are served at the root path.
+Instead of /public/wap/js/basis.js, use /wap/js/basis.js.
+Files in the public directory are served at the root path.
+Instead of /public/api/index/config, use /api/index/config.
+Files in the public directory are served at the root path.
+Instead of /public/h5static/js/main.js, use /h5static/js/main.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/js/lib/my-help.js, use /assets/js/lib/my-help.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/img/index/pay1.png, use /assets/img/index/pay1.png.
+Files in the public directory are served at the root path.
+Instead of /public/static/home/js/moblie/login.js, use /static/home/js/moblie/login.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/index/picture/img_33.png, use /static/index/picture/img_33.png.
+Files in the public directory are served at the root path.
+Instead of /public/h5static/js/main.js, use /h5static/js/main.js.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+1:39:37 PM [vite] hmr update /src/components/about/about.css
+1:39:37 PM [vite] hmr update /src/components/categories/category.css
+1:39:37 PM [vite] hmr update /src/components/categories/category.jsx
+1:39:37 PM [vite] hmr update /src/components/footer/footer.css
+1:39:37 PM [vite] hmr update /src/components/footer/footer.jsx
+1:39:37 PM [vite] hmr update /src/components/navbar/navBar.jsx
+1:39:37 PM [vite] hmr update /src/components/navbar/navbar.css
+1:39:37 PM [vite] hmr update /src/index.css
+1:39:37 PM [vite] hmr update /src/routes/homePage/homePage.css
+1:39:37 PM [vite] hmr update /src/routes/homePage/homePage.jsx
+1:39:37 PM [vite] hmr update /src/components/about/about.jsx
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+4:43:36 PM [vite] Pre-transform error: Failed to load url /assets/index-BDZikxND.js (resolved id: /assets/index-BDZikxND.js). Does the file exist?
+Files in the public directory are served at the root path.
+Instead of /public/img/cz1.png, use /img/cz1.png.
+Files in the public directory are served at the root path.
+Instead of /public/css/style.css, use /css/style.css.
+Files in the public directory are served at the root path.
+Instead of /public/wap/js/basis.js, use /wap/js/basis.js.
+Files in the public directory are served at the root path.
+Instead of /public/api/index/config, use /api/index/config.
+Files in the public directory are served at the root path.
+Instead of /public/h5static/js/main.js, use /h5static/js/main.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/js/lib/my-help.js, use /assets/js/lib/my-help.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/img/index/pay1.png, use /assets/img/index/pay1.png.
+Files in the public directory are served at the root path.
+Instead of /public/static/home/js/moblie/login.js, use /static/home/js/moblie/login.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/index/picture/img_33.png, use /static/index/picture/img_33.png.
+4:43:43 PM [vite] Pre-transform error: Failed to load url /assets/index-BDZikxND.js (resolved id: /assets/index-BDZikxND.js). Does the file exist?
+Files in the public directory are served at the root path.
+Instead of /public/img/cz1.png, use /img/cz1.png.
+Files in the public directory are served at the root path.
+Instead of /public/css/style.css, use /css/style.css.
+Files in the public directory are served at the root path.
+Instead of /public/wap/js/basis.js, use /wap/js/basis.js.
+Files in the public directory are served at the root path.
+Instead of /public/api/index/config, use /api/index/config.
+Files in the public directory are served at the root path.
+Instead of /public/h5static/js/main.js, use /h5static/js/main.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/js/lib/my-help.js, use /assets/js/lib/my-help.js.
+Files in the public directory are served at the root path.
+Instead of /public/assets/img/index/pay1.png, use /assets/img/index/pay1.png.
+Files in the public directory are served at the root path.
+Instead of /public/static/home/js/moblie/login.js, use /static/home/js/moblie/login.js.
+Files in the public directory are served at the root path.
+Instead of /public/static/index/picture/img_33.png, use /static/index/picture/img_33.png.
+Files in the public directory are served at the root path.
+Instead of /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php, use /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php.
+Files in the public directory are served at the root path.
+Instead of /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello, use /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/agricultural_land.jpg, use /properties/agricultural_land.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/commercial_site.jpg, use /properties/commercial_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_site.jpg, use /properties/residential_site.jpg.
+Files in the public directory are served at the root path.
+Instead of /public/properties/residential_house.jpg, use /properties/residential_house.jpg.
+2:28:52 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/index
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+2:28:54 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/47/b1803469433b7eeab7e8f45eb1de686e6f9172
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+2:28:54 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/77/18eb41f287bf1674677d21da0a9d451863321c
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+2:28:54 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/68/0a13e68f473f46078617a9fe0be04e042d2f14
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+2:28:54 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/f5/80ab459a98f1784e5c122040c9f73db23999fc
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+3:39:27 AM [vite] hmr update /src/components/about/about.css
+3:39:27 AM [vite] hmr update /src/components/about/about.jsx
+3:39:27 AM [vite] hmr update /src/components/categories/category.css
+3:39:27 AM [vite] hmr update /src/components/contact/contact.jsx
+3:39:27 AM [vite] hmr update /src/components/footer/footer.css
+3:39:27 AM [vite] hmr update /src/components/footer/footer.jsx
+3:39:27 AM [vite] hmr update /src/components/homeAbout/homeAbout.css
+3:39:27 AM [vite] hmr update /src/components/homeAbout/homeAbout.jsx
+3:39:27 AM [vite] hmr update /src/components/navbar/navBar.jsx
+3:39:27 AM [vite] hmr update /src/components/navbar/navbar.css
+3:39:27 AM [vite] hmr update /src/index.css
+3:39:27 AM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.jsx, /src/routes/bangloreProperties/bangloreProperties.jsx, /src/routes/bangloreProperties/banglorePropertyDetails.jsx, /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+3:39:27 AM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.css
+3:39:27 AM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.jsx
+3:39:27 AM [vite] hmr update /src/routes/bangloreProperties/banglorePropertyDetails.jsx
+3:39:27 AM [vite] hmr update /src/routes/homePage/homePage.css
+3:39:27 AM [vite] hmr update /src/routes/homePage/homePage.jsx
+3:39:27 AM [vite] hmr update /src/routes/layout/layout.jsx
+3:39:27 AM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.css
+3:39:27 AM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.jsx
+3:39:27 AM [vite] hmr update /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+7:04:36 PM [vite] hmr update /src/components/about/about.css
+7:04:36 PM [vite] hmr update /src/components/about/about.jsx
+7:04:36 PM [vite] hmr update /src/components/blogs/blogs.css
+7:04:36 PM [vite] hmr update /src/components/blogs/blogs.jsx
+7:04:36 PM [vite] hmr update /src/components/contact/contact.css
+7:04:36 PM [vite] hmr update /src/components/contact/contact.jsx
+7:04:36 PM [vite] hmr update /src/components/footer/footer.css
+7:04:36 PM [vite] hmr update /src/components/footer/footer.jsx
+7:04:36 PM [vite] hmr update /src/components/navbar/navBar.jsx
+7:04:36 PM [vite] hmr update /src/components/navbar/navbar.css
+7:04:36 PM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.css
+7:04:36 PM [vite] hmr update /src/routes/bangloreProperties/banglorePropertyDetails.jsx
+7:04:36 PM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.css
+7:04:36 PM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.jsx
+7:04:36 PM [vite] hmr update /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+7:04:36 PM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.jsx
+4:39:10 AM [vite] hmr update /src/components/about/about.css
+3:52:53 PM [vite] hmr update /src/components/about/about.css
+3:52:54 PM [vite] hmr update /src/components/about/about.jsx
+3:52:54 PM [vite] hmr update /src/components/blogs/blogs.jsx
+3:52:54 PM [vite] hmr update /src/components/contact/contact.css
+3:52:54 PM [vite] hmr update /src/components/contact/contact.jsx
+3:52:54 PM [vite] hmr update /src/components/footer/footer.css
+3:52:54 PM [vite] hmr update /src/components/footer/footer.jsx
+3:52:54 PM [vite] hmr update /src/components/homeAbout/homeAbout.css
+3:52:54 PM [vite] hmr update /src/components/navbar/navBar.jsx
+3:52:54 PM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.jsx, /src/routes/bangloreProperties/bangloreProperties.jsx, /src/routes/bangloreProperties/banglorePropertyDetails.jsx, /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+3:52:54 PM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.css
+3:52:54 PM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.jsx
+3:52:54 PM [vite] hmr update /src/routes/bangloreProperties/banglorePropertyDetails.jsx
+3:52:54 PM [vite] hmr update /src/routes/homePage/homePage.css
+4:59:08 AM [vite] hmr update /src/components/contact/contact.jsx
+4:59:08 AM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.jsx, /src/routes/bangloreProperties/bangloreProperties.jsx, /src/routes/bangloreProperties/banglorePropertyDetails.jsx, /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+4:59:08 AM [vite] hmr update /src/routes/bangloreProperties/banglorePropertyDetails.jsx
+4:59:08 AM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.jsx
+4:59:08 AM [vite] hmr update /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+2:07:05 PM [vite] hmr update /src/components/about/about.css
+2:07:05 PM [vite] hmr update /src/components/about/about.jsx
+2:07:05 PM [vite] hmr update /src/components/blogs/blogs.css
+2:07:05 PM [vite] hmr update /src/components/blogs/blogs.jsx
+2:07:05 PM [vite] hmr update /src/components/contact/contact.css
+2:07:05 PM [vite] hmr update /src/components/contact/contact.jsx
+2:07:05 PM [vite] hmr update /src/components/footer/footer.css
+2:07:05 PM [vite] hmr update /src/components/navbar/navBar.jsx
+2:07:05 PM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.jsx, /src/routes/bangloreProperties/bangloreProperties.jsx, /src/routes/bangloreProperties/banglorePropertyDetails.jsx, /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+2:07:05 PM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.css
+2:07:05 PM [vite] hmr update /src/routes/bangloreProperties/banglorePropertyDetails.jsx
+2:07:05 PM [vite] hmr update /src/routes/homePage/homePage.jsx
+2:07:05 PM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.css
+2:07:05 PM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.jsx
+2:07:05 PM [vite] hmr update /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+Files in the public directory are served at the root path.
+Instead of /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php, use /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php.
+Files in the public directory are served at the root path.
+Instead of /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello, use /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello.
+Files in the public directory are served at the root path.
+Instead of /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php, use /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php.
+Files in the public directory are served at the root path.
+Instead of /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello, use /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello.
+2:55:40 AM [vite] hmr update /src/components/contact/contact.css
+2:55:40 AM [vite] hmr update /src/components/footer/footer.jsx
+2:55:40 AM [vite] hmr update /src/components/navbar/navbar.css
+2:55:40 AM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.css
+2:55:40 AM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.jsx
+2:55:40 AM [vite] hmr update /src/routes/bangloreProperties/banglorePropertyDetails.jsx
+2:55:40 AM [vite] hmr update /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+5:25:13 AM [vite] ✨ new dependencies optimized: axios
+5:25:13 AM [vite] ✨ optimized dependencies changed. reloading
+7:07:00 PM [vite] hmr update /src/routes/bangloreProperties/banglorePropertyDetails.jsx
+5:52:23 PM [vite] hmr update /src/routes/bangloreProperties/bangloreProperties.jsx
+5:52:23 PM [vite] hmr update /src/routes/bangloreProperties/banglorePropertyDetails.jsx
+5:52:23 PM [vite] hmr update /src/routes/mysoreProperties/mysoreProperties.jsx
+5:52:23 PM [vite] hmr update /src/routes/mysoreProperties/mysorePropertyDetails.jsx
+9:49:17 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/index
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/91/d49f9b2c85ab62c5d0c7c3acbf8e36276b50a0
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/df/2dd6296d5d22d0cab9214f56f2f89526543772
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/68/0a13e68f473f46078617a9fe0be04e042d2f14
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/55/fffdbd94d452d96c6d2568054639cd5290686b
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/05/a244cc4b196b55f998301df5bd23c86308653a
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/f5/80ab459a98f1784e5c122040c9f73db23999fc
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/45/e5134ada4f0d3b849798c8dc94e50c3533cd3f
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/60/9040fb0739c1a58ed906cc3af38f2425a7c88b
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/47/b1803469433b7eeab7e8f45eb1de686e6f9172
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/77/18eb41f287bf1674677d21da0a9d451863321c
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/e4/7e531610e9da59bfb96d61ebe1c1952a0f2ec0
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+9:49:18 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/EaglesProperties/.git/objects/40/ba1ba907d4c3b7ec58f2ef4f59a99bdd6933de
+      at TransformPluginContext._formatError (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at TransformPluginContext.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63936:14)
+      at async PluginContainer.transform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+10:08:41 PM [vite] ws error:
+RangeError: Invalid WebSocket frame: RSV1 must be clear
+    at Receiver.getInfo (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:55543:26)
+    at Receiver.startLoop (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:55489:16)
+    at Receiver._write (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:55428:10)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Socket.socketOnData (file:///root/EaglesProperties/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:58485:37)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+> eaglesproperties@0.0.0 dev
+> vite --host
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+
+  VITE v5.4.8  ready in 275 ms
+
+  ➜  Local:   http://localhost:5175/
+  ➜  Network: http://62.72.58.4:5175/
+
+> eaglesproperties@0.0.0 dev
+> vite --host
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+Port 5175 is in use, trying another one...
+Port 5176 is in use, trying another one...
+
+  VITE v5.4.8  ready in 245 ms
+
+  ➜  Local:   http://localhost:5177/
+  ➜  Network: http://62.72.58.4:5177/
+
+> eaglesproperties@0.0.0 dev
+> vite --host
+
+
+  VITE v5.4.8  ready in 279 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://62.72.58.4:5173/
+
+> eaglesproperties@0.0.0 dev
+> vite --host
+
+
+  VITE v5.4.8  ready in 627 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://62.72.58.4:5173/
+
+> eaglesproperties@0.0.0 dev
+> vite --host
+
+Re-optimizing dependencies because lockfile has changed
+
+  VITE v5.4.8  ready in 218 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://62.72.58.4:5173/
+10:00:33 AM [vite] page reload index.html
+10:00:33 AM [vite] vite.config.js changed, restarting server...
+10:00:33 AM [vite] server restarted.
+10:01:02 AM [vite] page reload index.html
