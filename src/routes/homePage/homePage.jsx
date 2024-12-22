@@ -1,6 +1,5 @@
 import React from 'react';
 import HomeAbout from "../../components/homeAbout/homeAbout";
-import Category from "../../components/categories/category";
 import "./homePage.css";
 import { useNavigate } from 'react-router-dom';
 

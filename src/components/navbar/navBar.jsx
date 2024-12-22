@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Container, Modal, Button, Form, Navbar, Nav } from "react-bootstrap";
 import "./navbar.css";
+import { useForm, ValidationError } from '@formspree/react';
 
 const locations = ["Mysore", "Bangalore"];
 
@@ -17,6 +18,8 @@ function MyNavbar() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
   const navigate = useNavigate();
   const location = useLocation();
+  const [state, handleSubmit] = useForm("xbllrbqd");
+
 
   const handleModalClose = () => setShowModal(false);
   const handleModalOpen = () => setShowModal(true);
@@ -121,48 +124,40 @@ function MyNavbar() {
           <Modal.Title>Book a Site Visit Now</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form onSubmit={handleFormSubmit}>
+          <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3">
               <Form.Label>Name</Form.Label>
               <Form.Control
                 type="text"
                 name="name"
-                value={formData.name}
-                onChange={handleInputChange}
                 placeholder="Enter your name"
                 required
               />
+              <ValidationError prefix="Name" field="name" errors={state.errors} />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Email</Form.Label>
               <Form.Control
                 type="email"
                 name="email"
-                value={formData.email}
-                onChange={handleInputChange}
                 placeholder="Enter your email"
                 required
               />
+              <ValidationError prefix="Email" field="email" errors={state.errors} />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Phone Number</Form.Label>
               <Form.Control
                 type="tel"
                 name="phoneNumber"
-                value={formData.phoneNumber}
-                onChange={handleInputChange}
                 placeholder="Enter your phone number"
                 required
               />
+              <ValidationError prefix="Phone" field="phoneNumber" errors={state.errors} />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Category</Form.Label>
-              <Form.Select
-                name="category"
-                value={formData.category}
-                onChange={handleInputChange}
-                required
-              >
+              <Form.Select name="category" required>
                 <option value="">Select the Category</option>
                 <option value="Residential Plot">Residential Plot</option>
                 <option value="Commercial Plot">Commercial Plot</option>
@@ -172,11 +167,13 @@ function MyNavbar() {
                 <option value="Residential House/Villa">Residential House/Villa</option>
                 <option value="Apartments">Apartments</option>
               </Form.Select>
+              <ValidationError prefix="Category" field="category" errors={state.errors} />
             </Form.Group>
-            <Button variant="secondary" type="submit">
-              Submit
+            <Button variant="secondary" type="submit" disabled={state.submitting}>
+              {state.submitting ? "Submitting..." : "Submit"}
             </Button>
           </Form>
+          {state.succeeded && <p>Thanks for submitting the form!</p>}
         </Modal.Body>
       </Modal>
     </>
