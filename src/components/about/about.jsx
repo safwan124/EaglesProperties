@@ -12,9 +12,9 @@ const About = () => {
   };
 
   const teamMembers = [
-    { img: '/Eprofile1.jpg', name: "A. Prabhu Prasad", designation: "Founder" },
-    { img: '/Eprofile.jpg', name: "Tanisha P Prasad", designation: "Marketing Head" },
-    { img: '/Eprofile2.jpg', name: "Umesh B.S", designation: "Bangalore Operations Head" }
+    { img: '/profile.png', name: "John Doe", designation: "Founder" },
+    { img: '/profile.png', name: "Jane Doe", designation: "Marketing Head" },
+    { img: '/profile.png', name: "Adam Rae", designation: "Bangalore Operations Head" }
   ];
 
   return (

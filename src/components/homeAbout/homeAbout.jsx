@@ -4,7 +4,6 @@ import './homeAbout.css';
 import axios from 'axios';
 
 const HomeAbout = ({ handleClick }) => {
-
   const [featuredProperty, setFeaturedProperty] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -14,13 +13,23 @@ const HomeAbout = ({ handleClick }) => {
       try {
         const response = await axios.get('https://api.theeaglesrealty.com/properties');
         const featured = response.data.find((property) => property.featured === true);
+
         if (featured) {
           setFeaturedProperty(featured);
         } else {
-          setError('No featured property found.');
+          // No featured property found, use fallback image
+          setFeaturedProperty({
+            image: '/foo2.jpg',
+            title: 'Default Featured Property',
+          });
         }
       } catch (err) {
-        setError(err.response?.data?.message || 'No featured property found');
+        // Only set error for real API failures, not for empty result
+        setFeaturedProperty({
+          image: '/foo2.jpg',
+          title: 'Default Featured Property',
+        });
+        console.error(err);
       } finally {
         setLoading(false);
       }
@@ -39,21 +48,18 @@ const HomeAbout = ({ handleClick }) => {
           </h4>
         </Col>
         <Col md={6} className="featured-property" onClick={handleClick}>
-        <h1>Featured Property</h1>
+          <h1>Featured Property</h1>
           {loading ? (
             <Spinner animation="border" role="status">
               <span className="visually-hidden">Loading...</span>
             </Spinner>
-          ) : error ? (
-            <p className="text-danger">{error}</p>
-          ) : featuredProperty ? (
+          ) : (
             <img
-              src={featuredProperty.image || '/noimg.png'}
-              alt={featuredProperty.title || 'Featured Property'}
+              src={featuredProperty?.image || '/foo2.jpg'}
+              onError={(e) => { e.target.src = '/foo2.jpg'; }}
+              alt={featuredProperty?.title || 'Featured Property'}
               className="featured-property-image"
             />
-          ) : (
-            <p>No featured property available</p>
           )}
         </Col>
       </Row>

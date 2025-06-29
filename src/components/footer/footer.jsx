@@ -13,15 +13,15 @@ const Footer = () => {
                 <h3 className='mb-5'>The Eagles</h3>
                     <Col md={5} xs={12} className="mb-3">
                         <h5>Mysore</h5>
-                        <p><FontAwesomeIcon icon={faPhone} size="1x" /> &nbsp;+91 9980557991</p>
-                        <p><FontAwesomeIcon icon={faSquareEnvelope} size="1x" /> &nbsp;eaglesproperty991@gmail.com</p>
-                        <p># 41/36, Mothikhana Buildings, old Santhepet Road, <br />Mysore - 570024</p>
+                        <p><FontAwesomeIcon icon={faPhone} size="1x" /> &nbsp;+91 9999000</p>
+                        <p><FontAwesomeIcon icon={faSquareEnvelope} size="1x" /> &nbsp;eagles@gmail.com</p>
+                        <p># 553/2, <br />Mysore - 570024</p>
                     </Col>
                     <Col md={5} xs={12} className="mb-3">                        
                         <h5>Bangalore</h5>
-                        <p><FontAwesomeIcon icon={faPhone} size="1x" /> &nbsp;+91 9845034692</p>
-                        <p><FontAwesomeIcon icon={faSquareEnvelope} size="1x" /> &nbsp;eagles.bangalore991@gmail.com</p>
-                        <p># 82, 4th Floor, Pipeline, 11th Cross Malleshwaram,<br /> Bangalore - 560003</p>
+                        <p><FontAwesomeIcon icon={faPhone} size="1x" /> &nbsp;+91 95650545545</p>
+                        <p><FontAwesomeIcon icon={faSquareEnvelope} size="1x" /> &nbsp;eagles.bangalore@gmail.com</p>
+                        <p># 82, 4th Floor,<br /> Bangalore - 560003</p>
                     </Col>
                     <Col md={2} xs={12}>
                         <ul className="list-unstyled d-flex flex-row">
